@@ -1,0 +1,1721 @@
+2022-02-18 08:58:18,694 [ 1] INFO  - FootOff User Cancel [False]
+2022-02-18 08:58:18,694 [ 8] INFO  - StartFootOff in,maskThick=0
+2022-02-18 08:58:18,694 [ 8] INFO  - StartFootOff.ch=0,maskThick=0
+2022-02-18 08:58:18,694 [ 8] INFO  - StartFootOn.ch=0
+2022-02-18 08:58:18,694 [21] INFO  - FootOn sensor  success
+2022-02-18 08:58:18,694 [21] INFO  - Lodas::Dpaf::FootOnWorker: for home, pos = 31000, Origin = 31000, Mask Thick / 2 = 0, Err Dist = 0
+2022-02-18 08:58:19,084 [ 8] INFO  - Success FootOn
+2022-02-18 08:58:19,084 [19] INFO  - FootOffWorker Start
+2022-02-18 08:58:22,038 [19] INFO  - FootOff step 1 Success 
+2022-02-18 08:58:24,835 [19] INFO  - FootOff step 2 Success 
+2022-02-18 08:58:24,897 [ 8] INFO  - StartFootOff Result=True,ch=0
+2022-02-18 08:58:24,897 [ 8] INFO  - Success AF
+2022-02-18 08:58:32,397 [ 1] INFO  - ReviewForm::btnLaserReview_Click in
+2022-02-18 08:58:32,397 [ 1] INFO  - Lodas::MainForm::ReviewFormGetDefectImageRequired,before ScnImgMain,xPos=218731,yPos=342091
+2022-02-18 08:58:32,397 [ 1] DEBUG - Scn::ScnImgMain,scn_px=218731,scn_py=342091,scanKind=0
+2022-02-18 08:58:32,397 [ 1] DEBUG - Scn::ScnImgMain,before Stg::SetScanSpeed,take_back=30000,scan_speed=110000
+2022-02-18 08:58:32,397 [ 1] DEBUG - Start Image scan.
+2022-02-18 08:58:32,413 [ 6] DEBUG - Lodas::Scn::ScanImgThread: Stg::AdjustCCDCamera,lastCCDCameraMode=False,scn_img_line=256
+2022-02-18 08:58:32,413 [ 6] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=False, old Mode=False, old Face=None
+2022-02-18 08:58:32,413 [ 6] DEBUG - Lodas::Scn::ScanImgThread: take back = 30000, scan length = 3521, start pos = 185210, end pos = 252252
+2022-02-18 08:58:32,413 [ 6] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:58:32,413 [ 6] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:58:32,413 [ 6] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:58:32,413 [ 6] DEBUG - StgSetDest index = 0, addr = 185210, cur pos = 218731, mov = -33521.
+2022-02-18 08:58:32,413 [ 6] DEBUG - StgSetDest index = 1, addr = 185210, cur pos = 218731, mov = -33521.
+2022-02-18 08:58:32,413 [ 6] DEBUG - StgSetDest index = 2, addr = 342091, cur pos = 342091, mov = 0.
+2022-02-18 08:58:32,413 [ 6] DEBUG - MoveStart addr = E00.
+2022-02-18 08:58:32,413 [19] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:58:32,413 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:58:32,413 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 1.
+2022-02-18 08:58:32,413 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:58:32,413 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:32,413 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:58:33,475 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:58:33,475 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:58:33,475 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:58:33,475 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:33,475 [19] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:58:33,475 [19] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 08:58:33,475 [19] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 08:58:33,787 [ 6] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 08:58:33,787 [ 6] DEBUG - GDET: SetCaptureMode ch:0, src 1, continuous False kind 0
+2022-02-18 08:58:33,787 [ 6] INFO  - GDET: Create Image thread.
+2022-02-18 08:58:33,787 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: enter
+2022-02-18 08:58:33,787 [ 6] DEBUG - Lodas::Stg::GoScanX in
+2022-02-18 08:58:33,787 [ 6] DEBUG - Set index = 0, Speed = 110000, Mode = 1.
+2022-02-18 08:58:33,787 [ 6] DEBUG - Set index = 1, Speed = 110000, Mode = 1.
+2022-02-18 08:58:33,787 [ 6] DEBUG - StgSetDest index = 0, addr = 252252, cur pos = 185210, mov = 67042.
+2022-02-18 08:58:33,787 [ 6] DEBUG - StgSetDest index = 1, addr = 252252, cur pos = 185210, mov = 67042.
+2022-02-18 08:58:33,787 [ 6] DEBUG - MoveStart addr = C00.
+2022-02-18 08:58:33,787 [ 6] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current pos = 185210
+2022-02-18 08:58:33,787 [ 6] DEBUG - Lodas::StgCpdHandler::XSyncConfig: sync dist=45 start+.
+2022-02-18 08:58:33,787 [ 6] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current prcp5 = 185255
+2022-02-18 08:58:33,787 [ 6] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Set X1 PCL6123_WRENV5 = 50028
+2022-02-18 08:58:33,787 [ 6] DEBUG - Lodas::StgCpdHandler::XSyncConfig: end.
+2022-02-18 08:58:33,787 [ 8] DEBUG - Lodas::Stg::GoAbsLoopX in
+2022-02-18 08:58:33,787 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:58:33,787 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 08:58:33,787 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:58:33,787 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:33,787 [DoImageLoopNew] INFO  - GDET: Clear image buffer ch : 0 success
+2022-02-18 08:58:34,272 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x10, ch:0.
+2022-02-18 08:58:34,272 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x4000000, size:0x40.
+2022-02-18 08:58:34,272 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:58:34,272 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x0, trans size:0x10.
+2022-02-18 08:58:34,272 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x10.
+2022-02-18 08:58:34,272 [DoImageLoopNew] DEBUG - GDET: Get Image Head Success.
+2022-02-18 08:58:34,288 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x93000, ch:0.
+2022-02-18 08:58:34,288 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7DB4000, size:0x24C000.
+2022-02-18 08:58:34,288 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:58:34,288 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x10, trans size:0x93000.
+2022-02-18 08:58:34,288 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x93010.
+2022-02-18 08:58:34,303 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x6D000, ch:0.
+2022-02-18 08:58:34,303 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7C00000, size:0x1B4000.
+2022-02-18 08:58:34,303 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:58:34,303 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x93010, trans size:0x6D000.
+2022-02-18 08:58:34,303 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x100010.
+2022-02-18 08:58:34,303 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: Get Image Completed
+2022-02-18 08:58:34,303 [DoImageLoopNew] DEBUG - GDET: debug_review.dat save
+2022-02-18 08:58:34,303 [DoImageLoopNew] DEBUG - GDET: Now usr index 0
+2022-02-18 08:58:34,303 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: exit, image_loop_end = False.
+2022-02-18 08:58:34,350 [10] DEBUG - GDET: subdet_pci::gdet::WaitImageCaptured get block 0.
+2022-02-18 08:58:34,350 [10] INFO  - Scn::ScanCapThread, Gdet::WaitImageCaptured return, *blk=0
+2022-02-18 08:58:34,350 [10] INFO  - Lodas::Scn::ScanCapThread: Quit, cap_force_stop = False, *blk = 0
+2022-02-18 08:58:38,788 [ 6] ERROR - Lodas::Scn::ScanImgThread: Stage is not stop, pos x1=252252, x2=185210
+2022-02-18 08:58:38,803 [ 8] INFO  - Lodas::Stg::GoAbsLoopX: Request force quit
+2022-02-18 08:58:38,803 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:58:38,803 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 08:58:38,803 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:58:38,803 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:38,803 [ 8] DEBUG - MoveStop addr = 3072.
+2022-02-18 08:58:38,866 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:58:38,866 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:58:38,866 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:58:38,866 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:38,866 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current pos = 252252
+2022-02-18 08:58:38,866 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current pos = 185210
+2022-02-18 08:58:38,866 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: Current prcp5 = 185255
+2022-02-18 08:58:38,866 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current RPRMD = 41
+2022-02-18 08:58:38,866 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current RPRMD = 80041
+2022-02-18 08:58:38,866 [ 8] DEBUG - Lodas::Stg::GoAbsLoopX: Quit, status: NormalEnd
+2022-02-18 08:58:38,866 [ 8] DEBUG - Lodas::Stg::ScanXYCallback: in, e->CallerFunc = 0.
+2022-02-18 08:58:38,866 [ 6] DEBUG - Lodas::Scn::ScanImgThread: Stage current pos x1=252252, x2=185210
+2022-02-18 08:58:38,866 [ 6] INFO  - GDET: Call CancelGetUserInterrupt.
+2022-02-18 08:58:38,866 [ 6] INFO  - GDET: Destroy Image thread Success.
+2022-02-18 08:58:38,866 [ 6] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 08:58:38,866 [ 6] DEBUG - Lodas::Scn::ScanImgThread: Get block = 0.
+2022-02-18 08:58:38,866 [ 6] DEBUG - Lodas::Scn::ScanImgThread: Get image success.
+2022-02-18 08:58:38,866 [ 6] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:58:38,866 [ 6] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:58:38,866 [ 6] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:58:38,866 [ 6] DEBUG - StgSetDest index = 0, addr = 218731, cur pos = 252252, mov = -33521.
+2022-02-18 08:58:38,866 [ 6] DEBUG - StgSetDest index = 1, addr = 218731, cur pos = 185210, mov = 33521.
+2022-02-18 08:58:38,866 [ 6] DEBUG - StgSetDest index = 2, addr = 342091, cur pos = 342091, mov = 0.
+2022-02-18 08:58:38,866 [ 6] DEBUG - MoveStart addr = E00.
+2022-02-18 08:58:38,866 [19] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:58:38,866 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:58:38,866 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:58:38,866 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 08:58:38,866 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:58:38,866 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:39,929 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:58:39,929 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:58:39,929 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:58:39,929 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:39,929 [19] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:58:39,929 [19] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 08:58:39,929 [ 6] INFO  - Scn::ScanImgThread,finally
+2022-02-18 08:58:39,929 [ 6] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 08:58:39,929 [ 6] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 08:58:39,929 [ 1] DEBUG - Lodas::ReviewForm::ScanImageEnd: In, e->Result : NormalEnd
+2022-02-18 08:58:39,929 [ 1] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=True, old Mode=False, old Face=None
+2022-02-18 08:58:39,929 [19] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 08:58:39,929 [ 6] DEBUG - End Image scan. ret = NormalEnd
+2022-02-18 08:58:39,929 [ 6] ERROR - Lodas::AutoReview::SaveImage imgList and imgFileList is nullptr.
+2022-02-18 08:58:46,069 [ 1] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:58:46,069 [ 1] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:58:46,069 [ 1] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:58:46,069 [ 1] DEBUG - StgSetDest index = 0, addr = 185058, cur pos = 218731, mov = -33673.
+2022-02-18 08:58:46,069 [ 1] DEBUG - StgSetDest index = 1, addr = 185058, cur pos = 218731, mov = -33673.
+2022-02-18 08:58:46,069 [ 1] DEBUG - StgSetDest index = 2, addr = 347069, cur pos = 342091, mov = 4978.
+2022-02-18 08:58:46,069 [ 1] DEBUG - MoveStart addr = E00.
+2022-02-18 08:58:46,069 [21] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=1
+2022-02-18 08:58:46,069 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:58:46,069 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:58:46,069 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 1.
+2022-02-18 08:58:46,069 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 23, Sub = 101.
+2022-02-18 08:58:46,069 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:47,147 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:58:47,147 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:58:47,147 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:58:47,147 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:47,147 [21] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:58:47,147 [21] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=1
+2022-02-18 08:58:54,741 [ 1] INFO  - ReviewForm::btnLaserReview_Click in
+2022-02-18 08:58:54,741 [ 1] INFO  - Lodas::MainForm::ReviewFormGetDefectImageRequired,before ScnImgMain,xPos=185058,yPos=347069
+2022-02-18 08:58:54,741 [ 1] DEBUG - Scn::ScnImgMain,scn_px=185058,scn_py=347069,scanKind=0
+2022-02-18 08:58:54,741 [ 1] DEBUG - Scn::ScnImgMain,before Stg::SetScanSpeed,take_back=30000,scan_speed=110000
+2022-02-18 08:58:54,741 [ 1] DEBUG - Start Image scan.
+2022-02-18 08:58:54,757 [16] DEBUG - Lodas::Scn::ScanImgThread: Stg::AdjustCCDCamera,lastCCDCameraMode=False,scn_img_line=256
+2022-02-18 08:58:54,757 [16] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=False, old Mode=False, old Face=None
+2022-02-18 08:58:54,757 [16] DEBUG - Lodas::Scn::ScanImgThread: take back = 30000, scan length = 3521, start pos = 151537, end pos = 218579
+2022-02-18 08:58:54,757 [16] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:58:54,757 [16] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:58:54,757 [16] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:58:54,757 [16] DEBUG - StgSetDest index = 0, addr = 151537, cur pos = 185058, mov = -33521.
+2022-02-18 08:58:54,757 [16] DEBUG - StgSetDest index = 1, addr = 151537, cur pos = 185058, mov = -33521.
+2022-02-18 08:58:54,757 [16] DEBUG - StgSetDest index = 2, addr = 347069, cur pos = 347069, mov = 0.
+2022-02-18 08:58:54,757 [16] DEBUG - MoveStart addr = E00.
+2022-02-18 08:58:54,757 [19] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:58:54,757 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:58:54,757 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 08:58:54,757 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:58:54,757 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:54,757 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:58:55,835 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 28, Sub = 1.
+2022-02-18 08:58:55,835 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:58:55,835 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:58:55,835 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:55,835 [19] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:58:55,835 [19] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 08:58:55,835 [19] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 08:58:56,147 [16] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 08:58:56,147 [16] DEBUG - GDET: SetCaptureMode ch:0, src 1, continuous False kind 0
+2022-02-18 08:58:56,147 [16] INFO  - GDET: Create Image thread.
+2022-02-18 08:58:56,147 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: enter
+2022-02-18 08:58:56,147 [16] DEBUG - Lodas::Stg::GoScanX in
+2022-02-18 08:58:56,147 [16] DEBUG - Set index = 0, Speed = 110000, Mode = 1.
+2022-02-18 08:58:56,147 [16] DEBUG - Set index = 1, Speed = 110000, Mode = 1.
+2022-02-18 08:58:56,147 [16] DEBUG - StgSetDest index = 0, addr = 218579, cur pos = 151537, mov = 67042.
+2022-02-18 08:58:56,147 [16] DEBUG - StgSetDest index = 1, addr = 218579, cur pos = 151537, mov = 67042.
+2022-02-18 08:58:56,147 [16] DEBUG - MoveStart addr = C00.
+2022-02-18 08:58:56,147 [16] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current pos = 151537
+2022-02-18 08:58:56,147 [16] DEBUG - Lodas::StgCpdHandler::XSyncConfig: sync dist=45 start+.
+2022-02-18 08:58:56,147 [16] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current prcp5 = 151582
+2022-02-18 08:58:56,147 [16] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Set X1 PCL6123_WRENV5 = 50028
+2022-02-18 08:58:56,147 [16] DEBUG - Lodas::StgCpdHandler::XSyncConfig: end.
+2022-02-18 08:58:56,147 [19] DEBUG - Lodas::Stg::GoAbsLoopX in
+2022-02-18 08:58:56,147 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 8023, Sub = 101.
+2022-02-18 08:58:56,147 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 08:58:56,147 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:58:56,147 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:56,147 [DoImageLoopNew] INFO  - GDET: Clear image buffer ch : 0 success
+2022-02-18 08:58:56,632 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x10, ch:0.
+2022-02-18 08:58:56,632 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x4000000, size:0x40.
+2022-02-18 08:58:56,632 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:58:56,632 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x0, trans size:0x10.
+2022-02-18 08:58:56,632 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x10.
+2022-02-18 08:58:56,632 [DoImageLoopNew] DEBUG - GDET: Get Image Head Success.
+2022-02-18 08:58:56,647 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x97000, ch:0.
+2022-02-18 08:58:56,647 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x79A4000, size:0x25C000.
+2022-02-18 08:58:56,647 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:58:56,647 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x10, trans size:0x97000.
+2022-02-18 08:58:56,647 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x97010.
+2022-02-18 08:58:56,663 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x69000, ch:0.
+2022-02-18 08:58:56,663 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7800000, size:0x1A4000.
+2022-02-18 08:58:56,663 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:58:56,663 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x97010, trans size:0x69000.
+2022-02-18 08:58:56,663 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x100010.
+2022-02-18 08:58:56,663 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: Get Image Completed
+2022-02-18 08:58:56,663 [DoImageLoopNew] DEBUG - GDET: debug_review.dat save
+2022-02-18 08:58:56,663 [DoImageLoopNew] DEBUG - GDET: Now usr index 0
+2022-02-18 08:58:56,663 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: exit, image_loop_end = False.
+2022-02-18 08:58:56,710 [14] DEBUG - GDET: subdet_pci::gdet::WaitImageCaptured get block 0.
+2022-02-18 08:58:56,710 [14] INFO  - Scn::ScanCapThread, Gdet::WaitImageCaptured return, *blk=0
+2022-02-18 08:58:56,710 [14] INFO  - Lodas::Scn::ScanCapThread: Quit, cap_force_stop = False, *blk = 0
+2022-02-18 08:58:57,460 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:58:57,460 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:58:57,460 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:58:57,460 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:57,460 [19] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current pos = 218579
+2022-02-18 08:58:57,460 [19] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current pos = 218579
+2022-02-18 08:58:57,460 [19] DEBUG - Lodas::StgCpdHandler::MoveEnded: Current prcp5 = 151582
+2022-02-18 08:58:57,460 [19] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current RPRMD = 41
+2022-02-18 08:58:57,460 [19] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current RPRMD = 80041
+2022-02-18 08:58:57,460 [19] DEBUG - Lodas::Stg::GoAbsLoopX: Quit, status: NormalEnd
+2022-02-18 08:58:57,460 [19] DEBUG - Lodas::Stg::ScanXYCallback: in, e->CallerFunc = 0.
+2022-02-18 08:58:57,460 [16] DEBUG - Lodas::Scn::ScanImgThread: Stage current pos x1=218579, x2=218579
+2022-02-18 08:58:57,460 [16] INFO  - GDET: Call CancelGetUserInterrupt.
+2022-02-18 08:58:57,460 [16] INFO  - GDET: Destroy Image thread Success.
+2022-02-18 08:58:57,460 [16] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 08:58:57,460 [16] DEBUG - Lodas::Scn::ScanImgThread: Get block = 0.
+2022-02-18 08:58:57,460 [16] DEBUG - Lodas::Scn::ScanImgThread: Get image success.
+2022-02-18 08:58:57,460 [16] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:58:57,460 [16] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:58:57,460 [16] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:58:57,460 [16] DEBUG - StgSetDest index = 0, addr = 185058, cur pos = 218579, mov = -33521.
+2022-02-18 08:58:57,460 [16] DEBUG - StgSetDest index = 1, addr = 185058, cur pos = 218579, mov = -33521.
+2022-02-18 08:58:57,460 [16] DEBUG - StgSetDest index = 2, addr = 347069, cur pos = 347069, mov = 0.
+2022-02-18 08:58:57,460 [16] DEBUG - MoveStart addr = E00.
+2022-02-18 08:58:57,460 [21] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:58:57,460 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:58:57,460 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 81.
+2022-02-18 08:58:57,460 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 1.
+2022-02-18 08:58:57,460 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:58:57,460 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:58,522 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 28, Sub = 1.
+2022-02-18 08:58:58,522 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:58:58,522 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:58:58,522 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:58:58,522 [21] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:58:58,522 [21] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 08:58:58,522 [16] INFO  - Scn::ScanImgThread,finally
+2022-02-18 08:58:58,522 [16] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 08:58:58,522 [16] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 08:58:58,522 [ 1] DEBUG - Lodas::ReviewForm::ScanImageEnd: In, e->Result : NormalEnd
+2022-02-18 08:58:58,522 [ 1] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=True, old Mode=False, old Face=None
+2022-02-18 08:58:58,522 [21] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 08:58:58,522 [16] DEBUG - End Image scan. ret = NormalEnd
+2022-02-18 08:58:58,522 [16] ERROR - Lodas::AutoReview::SaveImage imgList and imgFileList is nullptr.
+2022-02-18 08:59:03,725 [ 1] INFO  - ReviewForm::btnLaserReview_Click in
+2022-02-18 08:59:03,725 [ 1] INFO  - Lodas::MainForm::ReviewFormGetDefectImageRequired,before ScnImgMain,xPos=185058,yPos=347069
+2022-02-18 08:59:03,725 [ 1] DEBUG - Scn::ScnImgMain,scn_px=185058,scn_py=347069,scanKind=0
+2022-02-18 08:59:03,725 [ 1] DEBUG - Scn::ScnImgMain,before Stg::SetScanSpeed,take_back=30000,scan_speed=110000
+2022-02-18 08:59:03,725 [ 1] DEBUG - Start Image scan.
+2022-02-18 08:59:03,741 [20] DEBUG - Lodas::Scn::ScanImgThread: Stg::AdjustCCDCamera,lastCCDCameraMode=False,scn_img_line=256
+2022-02-18 08:59:03,741 [20] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=False, old Mode=False, old Face=None
+2022-02-18 08:59:03,741 [20] DEBUG - Lodas::Scn::ScanImgThread: take back = 30000, scan length = 3521, start pos = 151537, end pos = 218579
+2022-02-18 08:59:03,741 [20] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:59:03,741 [20] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:59:03,741 [20] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:59:03,741 [20] DEBUG - StgSetDest index = 0, addr = 151537, cur pos = 185058, mov = -33521.
+2022-02-18 08:59:03,741 [20] DEBUG - StgSetDest index = 1, addr = 151537, cur pos = 185058, mov = -33521.
+2022-02-18 08:59:03,741 [20] DEBUG - StgSetDest index = 2, addr = 347069, cur pos = 347069, mov = 0.
+2022-02-18 08:59:03,741 [20] DEBUG - MoveStart addr = E00.
+2022-02-18 08:59:03,741 [ 8] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:59:03,741 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 23, Sub = 101.
+2022-02-18 08:59:03,741 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 08:59:03,741 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:03,741 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:03,741 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:59:04,804 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 28, Sub = 1.
+2022-02-18 08:59:04,804 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:04,804 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:04,804 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:04,804 [ 8] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:59:04,804 [ 8] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 08:59:04,804 [ 8] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 08:59:05,116 [20] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 08:59:05,116 [20] DEBUG - GDET: SetCaptureMode ch:0, src 1, continuous False kind 0
+2022-02-18 08:59:05,116 [20] INFO  - GDET: Create Image thread.
+2022-02-18 08:59:05,116 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: enter
+2022-02-18 08:59:05,116 [20] DEBUG - Lodas::Stg::GoScanX in
+2022-02-18 08:59:05,116 [20] DEBUG - Set index = 0, Speed = 110000, Mode = 1.
+2022-02-18 08:59:05,116 [20] DEBUG - Set index = 1, Speed = 110000, Mode = 1.
+2022-02-18 08:59:05,116 [20] DEBUG - StgSetDest index = 0, addr = 218579, cur pos = 151537, mov = 67042.
+2022-02-18 08:59:05,116 [20] DEBUG - StgSetDest index = 1, addr = 218579, cur pos = 151537, mov = 67042.
+2022-02-18 08:59:05,116 [20] DEBUG - MoveStart addr = C00.
+2022-02-18 08:59:05,116 [20] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current pos = 151537
+2022-02-18 08:59:05,116 [20] DEBUG - Lodas::StgCpdHandler::XSyncConfig: sync dist=45 start+.
+2022-02-18 08:59:05,116 [20] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current prcp5 = 151582
+2022-02-18 08:59:05,116 [20] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Set X1 PCL6123_WRENV5 = 50028
+2022-02-18 08:59:05,116 [20] DEBUG - Lodas::StgCpdHandler::XSyncConfig: end.
+2022-02-18 08:59:05,116 [21] DEBUG - Lodas::Stg::GoAbsLoopX in
+2022-02-18 08:59:05,116 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 8023, Sub = 101.
+2022-02-18 08:59:05,116 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 08:59:05,116 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:05,116 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:05,116 [DoImageLoopNew] INFO  - GDET: Clear image buffer ch : 0 success
+2022-02-18 08:59:05,600 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x10, ch:0.
+2022-02-18 08:59:05,600 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x4000000, size:0x40.
+2022-02-18 08:59:05,600 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:05,600 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x0, trans size:0x10.
+2022-02-18 08:59:05,600 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x10.
+2022-02-18 08:59:05,600 [DoImageLoopNew] DEBUG - GDET: Get Image Head Success.
+2022-02-18 08:59:05,616 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x97000, ch:0.
+2022-02-18 08:59:05,616 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7DA4000, size:0x25C000.
+2022-02-18 08:59:05,616 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:05,616 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x10, trans size:0x97000.
+2022-02-18 08:59:05,616 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x97010.
+2022-02-18 08:59:05,632 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x69000, ch:0.
+2022-02-18 08:59:05,632 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7C00000, size:0x1A4000.
+2022-02-18 08:59:05,632 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:05,632 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x97010, trans size:0x69000.
+2022-02-18 08:59:05,632 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x100010.
+2022-02-18 08:59:05,632 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: Get Image Completed
+2022-02-18 08:59:05,632 [DoImageLoopNew] DEBUG - GDET: debug_review.dat save
+2022-02-18 08:59:05,632 [DoImageLoopNew] DEBUG - GDET: Now usr index 0
+2022-02-18 08:59:05,632 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: exit, image_loop_end = False.
+2022-02-18 08:59:05,678 [17] DEBUG - GDET: subdet_pci::gdet::WaitImageCaptured get block 0.
+2022-02-18 08:59:05,678 [17] INFO  - Scn::ScanCapThread, Gdet::WaitImageCaptured return, *blk=0
+2022-02-18 08:59:05,678 [17] INFO  - Lodas::Scn::ScanCapThread: Quit, cap_force_stop = False, *blk = 0
+2022-02-18 08:59:06,428 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:06,428 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:06,428 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:06,428 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:06,428 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current pos = 218579
+2022-02-18 08:59:06,428 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current pos = 218579
+2022-02-18 08:59:06,428 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: Current prcp5 = 151582
+2022-02-18 08:59:06,428 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current RPRMD = 41
+2022-02-18 08:59:06,428 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current RPRMD = 80041
+2022-02-18 08:59:06,428 [21] DEBUG - Lodas::Stg::GoAbsLoopX: Quit, status: NormalEnd
+2022-02-18 08:59:06,428 [21] DEBUG - Lodas::Stg::ScanXYCallback: in, e->CallerFunc = 0.
+2022-02-18 08:59:06,428 [20] DEBUG - Lodas::Scn::ScanImgThread: Stage current pos x1=218579, x2=218579
+2022-02-18 08:59:06,428 [20] INFO  - GDET: Call CancelGetUserInterrupt.
+2022-02-18 08:59:06,428 [20] INFO  - GDET: Destroy Image thread Success.
+2022-02-18 08:59:06,428 [20] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 08:59:06,428 [20] DEBUG - Lodas::Scn::ScanImgThread: Get block = 0.
+2022-02-18 08:59:06,428 [20] DEBUG - Lodas::Scn::ScanImgThread: Get image success.
+2022-02-18 08:59:06,428 [20] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:59:06,428 [20] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:59:06,428 [20] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:59:06,428 [20] DEBUG - StgSetDest index = 0, addr = 185058, cur pos = 218579, mov = -33521.
+2022-02-18 08:59:06,428 [20] DEBUG - StgSetDest index = 1, addr = 185058, cur pos = 218579, mov = -33521.
+2022-02-18 08:59:06,428 [20] DEBUG - StgSetDest index = 2, addr = 347069, cur pos = 347069, mov = 0.
+2022-02-18 08:59:06,428 [20] DEBUG - MoveStart addr = E00.
+2022-02-18 08:59:06,428 [19] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:59:06,428 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:59:06,428 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:59:06,428 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 08:59:06,428 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:06,428 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:07,491 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 1028, Sub = 81.
+2022-02-18 08:59:07,491 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:07,491 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:07,491 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:07,491 [19] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:59:07,491 [19] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 08:59:07,491 [20] INFO  - Scn::ScanImgThread,finally
+2022-02-18 08:59:07,491 [20] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 08:59:07,491 [20] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 08:59:07,506 [ 1] DEBUG - Lodas::ReviewForm::ScanImageEnd: In, e->Result : NormalEnd
+2022-02-18 08:59:07,506 [ 1] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=True, old Mode=False, old Face=None
+2022-02-18 08:59:07,522 [19] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 08:59:07,522 [20] DEBUG - End Image scan. ret = NormalEnd
+2022-02-18 08:59:07,522 [20] ERROR - Lodas::AutoReview::SaveImage imgList and imgFileList is nullptr.
+2022-02-18 08:59:09,366 [ 1] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:59:09,366 [ 1] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:59:09,366 [ 1] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:59:09,366 [ 1] DEBUG - StgSetDest index = 0, addr = 238918, cur pos = 185058, mov = 53860.
+2022-02-18 08:59:09,366 [ 1] DEBUG - StgSetDest index = 1, addr = 238918, cur pos = 185058, mov = 53860.
+2022-02-18 08:59:09,366 [ 1] DEBUG - StgSetDest index = 2, addr = 347619, cur pos = 347069, mov = 550.
+2022-02-18 08:59:09,366 [ 1] DEBUG - MoveStart addr = E00.
+2022-02-18 08:59:09,366 [ 8] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=1
+2022-02-18 08:59:09,366 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 1023, Sub = 81.
+2022-02-18 08:59:09,366 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:59:09,366 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 1.
+2022-02-18 08:59:09,366 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 23, Sub = 101.
+2022-02-18 08:59:09,366 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:10,804 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 1028, Sub = 81.
+2022-02-18 08:59:10,804 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:10,804 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:10,804 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:10,804 [ 8] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:59:10,804 [ 8] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=1
+2022-02-18 08:59:11,694 [ 1] INFO  - ReviewForm::btnLaserReview_Click in
+2022-02-18 08:59:11,694 [ 1] INFO  - Lodas::MainForm::ReviewFormGetDefectImageRequired,before ScnImgMain,xPos=238918,yPos=347619
+2022-02-18 08:59:11,694 [ 1] DEBUG - Scn::ScnImgMain,scn_px=238918,scn_py=347619,scanKind=0
+2022-02-18 08:59:11,694 [ 1] DEBUG - Scn::ScnImgMain,before Stg::SetScanSpeed,take_back=30000,scan_speed=110000
+2022-02-18 08:59:11,694 [ 1] DEBUG - Start Image scan.
+2022-02-18 08:59:11,710 [ 7] DEBUG - Lodas::Scn::ScanImgThread: Stg::AdjustCCDCamera,lastCCDCameraMode=False,scn_img_line=256
+2022-02-18 08:59:11,710 [ 7] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=False, old Mode=False, old Face=None
+2022-02-18 08:59:11,710 [ 7] DEBUG - Lodas::Scn::ScanImgThread: take back = 30000, scan length = 3521, start pos = 205397, end pos = 272439
+2022-02-18 08:59:11,710 [ 7] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:59:11,710 [ 7] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:59:11,710 [ 7] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:59:11,710 [ 7] DEBUG - StgSetDest index = 0, addr = 205397, cur pos = 238918, mov = -33521.
+2022-02-18 08:59:11,710 [ 7] DEBUG - StgSetDest index = 1, addr = 205397, cur pos = 238918, mov = -33521.
+2022-02-18 08:59:11,710 [ 7] DEBUG - StgSetDest index = 2, addr = 347619, cur pos = 347619, mov = 0.
+2022-02-18 08:59:11,710 [ 7] DEBUG - MoveStart addr = E00.
+2022-02-18 08:59:11,710 [19] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:59:11,710 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 1023, Sub = 81.
+2022-02-18 08:59:11,710 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 1.
+2022-02-18 08:59:11,710 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:11,710 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:11,710 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:59:12,772 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 1028, Sub = 81.
+2022-02-18 08:59:12,772 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:12,772 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:12,772 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:12,772 [19] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:59:12,772 [19] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 08:59:12,772 [19] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 08:59:13,085 [ 7] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 08:59:13,085 [ 7] DEBUG - GDET: SetCaptureMode ch:0, src 1, continuous False kind 0
+2022-02-18 08:59:13,085 [ 7] INFO  - GDET: Create Image thread.
+2022-02-18 08:59:13,085 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: enter
+2022-02-18 08:59:13,085 [ 7] DEBUG - Lodas::Stg::GoScanX in
+2022-02-18 08:59:13,085 [ 7] DEBUG - Set index = 0, Speed = 110000, Mode = 1.
+2022-02-18 08:59:13,085 [ 7] DEBUG - Set index = 1, Speed = 110000, Mode = 1.
+2022-02-18 08:59:13,085 [ 7] DEBUG - StgSetDest index = 0, addr = 272439, cur pos = 205397, mov = 67042.
+2022-02-18 08:59:13,085 [ 7] DEBUG - StgSetDest index = 1, addr = 272439, cur pos = 205397, mov = 67042.
+2022-02-18 08:59:13,085 [ 7] DEBUG - MoveStart addr = C00.
+2022-02-18 08:59:13,085 [ 7] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current pos = 205397
+2022-02-18 08:59:13,085 [ 7] DEBUG - Lodas::StgCpdHandler::XSyncConfig: sync dist=45 start+.
+2022-02-18 08:59:13,085 [ 7] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current prcp5 = 205442
+2022-02-18 08:59:13,085 [ 7] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Set X1 PCL6123_WRENV5 = 50028
+2022-02-18 08:59:13,085 [ 7] DEBUG - Lodas::StgCpdHandler::XSyncConfig: end.
+2022-02-18 08:59:13,085 [ 8] DEBUG - Lodas::Stg::GoAbsLoopX in
+2022-02-18 08:59:13,085 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:59:13,085 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 08:59:13,085 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:13,085 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:13,085 [DoImageLoopNew] INFO  - GDET: Clear image buffer ch : 0 success
+2022-02-18 08:59:13,569 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x10, ch:0.
+2022-02-18 08:59:13,569 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x4000000, size:0x40.
+2022-02-18 08:59:13,569 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:13,569 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x0, trans size:0x10.
+2022-02-18 08:59:13,569 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x10.
+2022-02-18 08:59:13,569 [DoImageLoopNew] DEBUG - GDET: Get Image Head Success.
+2022-02-18 08:59:13,585 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x98000, ch:0.
+2022-02-18 08:59:13,585 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x79A0000, size:0x260000.
+2022-02-18 08:59:13,585 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:13,585 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x10, trans size:0x98000.
+2022-02-18 08:59:13,585 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x98010.
+2022-02-18 08:59:13,601 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x68000, ch:0.
+2022-02-18 08:59:13,601 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7800000, size:0x1A0000.
+2022-02-18 08:59:13,601 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:13,601 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x98010, trans size:0x68000.
+2022-02-18 08:59:13,601 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x100010.
+2022-02-18 08:59:13,601 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: Get Image Completed
+2022-02-18 08:59:13,601 [DoImageLoopNew] DEBUG - GDET: debug_review.dat save
+2022-02-18 08:59:13,601 [DoImageLoopNew] DEBUG - GDET: Now usr index 0
+2022-02-18 08:59:13,601 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: exit, image_loop_end = False.
+2022-02-18 08:59:13,647 [16] DEBUG - GDET: subdet_pci::gdet::WaitImageCaptured get block 0.
+2022-02-18 08:59:13,647 [16] INFO  - Scn::ScanCapThread, Gdet::WaitImageCaptured return, *blk=0
+2022-02-18 08:59:13,647 [16] INFO  - Lodas::Scn::ScanCapThread: Quit, cap_force_stop = False, *blk = 0
+2022-02-18 08:59:18,100 [ 7] ERROR - Lodas::Scn::ScanImgThread: Stage is not stop, pos x1=272439, x2=205397
+2022-02-18 08:59:18,116 [ 8] INFO  - Lodas::Stg::GoAbsLoopX: Request force quit
+2022-02-18 08:59:18,116 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:18,116 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 08:59:18,116 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:18,116 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:18,116 [ 8] DEBUG - MoveStop addr = 3072.
+2022-02-18 08:59:18,147 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:18,147 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:18,147 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:18,147 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:18,147 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current pos = 272439
+2022-02-18 08:59:18,147 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current pos = 205397
+2022-02-18 08:59:18,147 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: Current prcp5 = 205442
+2022-02-18 08:59:18,147 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current RPRMD = 41
+2022-02-18 08:59:18,147 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current RPRMD = 80041
+2022-02-18 08:59:18,147 [ 8] DEBUG - Lodas::Stg::GoAbsLoopX: Quit, status: NormalEnd
+2022-02-18 08:59:18,147 [ 8] DEBUG - Lodas::Stg::ScanXYCallback: in, e->CallerFunc = 0.
+2022-02-18 08:59:18,147 [ 7] DEBUG - Lodas::Scn::ScanImgThread: Stage current pos x1=272439, x2=205397
+2022-02-18 08:59:18,147 [ 7] INFO  - GDET: Call CancelGetUserInterrupt.
+2022-02-18 08:59:18,147 [ 7] INFO  - GDET: Destroy Image thread Success.
+2022-02-18 08:59:18,147 [ 7] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 08:59:18,147 [ 7] DEBUG - Lodas::Scn::ScanImgThread: Get block = 0.
+2022-02-18 08:59:18,147 [ 7] DEBUG - Lodas::Scn::ScanImgThread: Get image success.
+2022-02-18 08:59:18,147 [ 7] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:59:18,147 [ 7] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:59:18,147 [ 7] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:59:18,147 [ 7] DEBUG - StgSetDest index = 0, addr = 238918, cur pos = 272439, mov = -33521.
+2022-02-18 08:59:18,147 [ 7] DEBUG - StgSetDest index = 1, addr = 238918, cur pos = 205397, mov = 33521.
+2022-02-18 08:59:18,147 [ 7] DEBUG - StgSetDest index = 2, addr = 347619, cur pos = 347619, mov = 0.
+2022-02-18 08:59:18,147 [ 7] DEBUG - MoveStart addr = E00.
+2022-02-18 08:59:18,147 [19] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:59:18,147 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 81.
+2022-02-18 08:59:18,147 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:59:18,147 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 08:59:18,147 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:18,147 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:19,210 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:19,210 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:19,210 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:19,210 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:19,210 [19] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:59:19,210 [19] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 08:59:19,210 [ 7] INFO  - Scn::ScanImgThread,finally
+2022-02-18 08:59:19,210 [ 7] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 08:59:19,210 [ 7] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 08:59:19,210 [ 1] DEBUG - Lodas::ReviewForm::ScanImageEnd: In, e->Result : NormalEnd
+2022-02-18 08:59:19,210 [ 1] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=True, old Mode=False, old Face=None
+2022-02-18 08:59:19,210 [19] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 08:59:19,210 [ 7] DEBUG - End Image scan. ret = NormalEnd
+2022-02-18 08:59:19,210 [ 7] ERROR - Lodas::AutoReview::SaveImage imgList and imgFileList is nullptr.
+2022-02-18 08:59:20,741 [ 1] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:59:20,741 [ 1] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:59:20,741 [ 1] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:59:20,741 [ 1] DEBUG - StgSetDest index = 0, addr = 200298, cur pos = 238918, mov = -38620.
+2022-02-18 08:59:20,741 [ 1] DEBUG - StgSetDest index = 1, addr = 200298, cur pos = 238918, mov = -38620.
+2022-02-18 08:59:20,741 [ 1] DEBUG - StgSetDest index = 2, addr = 346910, cur pos = 347619, mov = -709.
+2022-02-18 08:59:20,741 [ 1] DEBUG - MoveStart addr = E00.
+2022-02-18 08:59:20,741 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:59:20,741 [21] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=1
+2022-02-18 08:59:20,741 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:59:20,741 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 1.
+2022-02-18 08:59:20,741 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 23, Sub = 1.
+2022-02-18 08:59:20,741 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:21,866 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:21,866 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:21,866 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:21,866 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:21,866 [21] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:59:21,866 [21] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=1
+2022-02-18 08:59:22,663 [ 1] INFO  - ReviewForm::btnLaserReview_Click in
+2022-02-18 08:59:22,663 [ 1] INFO  - Lodas::MainForm::ReviewFormGetDefectImageRequired,before ScnImgMain,xPos=200298,yPos=346910
+2022-02-18 08:59:22,663 [ 1] DEBUG - Scn::ScnImgMain,scn_px=200298,scn_py=346910,scanKind=0
+2022-02-18 08:59:22,678 [ 1] DEBUG - Scn::ScnImgMain,before Stg::SetScanSpeed,take_back=30000,scan_speed=110000
+2022-02-18 08:59:22,678 [ 1] DEBUG - Start Image scan.
+2022-02-18 08:59:22,678 [10] DEBUG - Lodas::Scn::ScanImgThread: Stg::AdjustCCDCamera,lastCCDCameraMode=False,scn_img_line=256
+2022-02-18 08:59:22,678 [10] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=False, old Mode=False, old Face=None
+2022-02-18 08:59:22,678 [10] DEBUG - Lodas::Scn::ScanImgThread: take back = 30000, scan length = 3521, start pos = 166777, end pos = 233819
+2022-02-18 08:59:22,678 [10] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:59:22,678 [10] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:59:22,678 [10] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:59:22,678 [10] DEBUG - StgSetDest index = 0, addr = 166777, cur pos = 200298, mov = -33521.
+2022-02-18 08:59:22,678 [10] DEBUG - StgSetDest index = 1, addr = 166777, cur pos = 200298, mov = -33521.
+2022-02-18 08:59:22,678 [10] DEBUG - StgSetDest index = 2, addr = 346910, cur pos = 346910, mov = 0.
+2022-02-18 08:59:22,678 [10] DEBUG - MoveStart addr = E00.
+2022-02-18 08:59:22,678 [19] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:59:22,678 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:59:22,678 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 08:59:22,678 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:22,678 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:22,678 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:59:23,741 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:23,741 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:23,741 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:23,741 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:23,741 [19] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:59:23,741 [19] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 08:59:23,741 [19] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 08:59:24,053 [10] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 08:59:24,053 [10] DEBUG - GDET: SetCaptureMode ch:0, src 1, continuous False kind 0
+2022-02-18 08:59:24,053 [10] INFO  - GDET: Create Image thread.
+2022-02-18 08:59:24,053 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: enter
+2022-02-18 08:59:24,053 [10] DEBUG - Lodas::Stg::GoScanX in
+2022-02-18 08:59:24,053 [10] DEBUG - Set index = 0, Speed = 110000, Mode = 1.
+2022-02-18 08:59:24,053 [10] DEBUG - Set index = 1, Speed = 110000, Mode = 1.
+2022-02-18 08:59:24,053 [10] DEBUG - StgSetDest index = 0, addr = 233819, cur pos = 166777, mov = 67042.
+2022-02-18 08:59:24,053 [10] DEBUG - StgSetDest index = 1, addr = 233819, cur pos = 166777, mov = 67042.
+2022-02-18 08:59:24,053 [10] DEBUG - MoveStart addr = C00.
+2022-02-18 08:59:24,053 [10] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current pos = 166777
+2022-02-18 08:59:24,053 [10] DEBUG - Lodas::StgCpdHandler::XSyncConfig: sync dist=45 start+.
+2022-02-18 08:59:24,053 [10] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current prcp5 = 205442
+2022-02-18 08:59:24,053 [10] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Set X1 PCL6123_WRENV5 = 50028
+2022-02-18 08:59:24,053 [10] DEBUG - Lodas::StgCpdHandler::XSyncConfig: end.
+2022-02-18 08:59:24,053 [21] DEBUG - Lodas::Stg::GoAbsLoopX in
+2022-02-18 08:59:24,053 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:59:24,053 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 08:59:24,053 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:24,053 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:24,053 [DoImageLoopNew] INFO  - GDET: Clear image buffer ch : 0 success
+2022-02-18 08:59:24,538 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x10, ch:0.
+2022-02-18 08:59:24,538 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x4000000, size:0x40.
+2022-02-18 08:59:24,538 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:24,538 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x0, trans size:0x10.
+2022-02-18 08:59:24,538 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x10.
+2022-02-18 08:59:24,538 [DoImageLoopNew] DEBUG - GDET: Get Image Head Success.
+2022-02-18 08:59:24,553 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x96000, ch:0.
+2022-02-18 08:59:24,553 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7DA8000, size:0x258000.
+2022-02-18 08:59:24,553 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:24,553 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x10, trans size:0x96000.
+2022-02-18 08:59:24,553 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x96010.
+2022-02-18 08:59:24,569 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x6A000, ch:0.
+2022-02-18 08:59:24,569 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7C00000, size:0x1A8000.
+2022-02-18 08:59:24,569 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:24,569 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x96010, trans size:0x6A000.
+2022-02-18 08:59:24,569 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x100010.
+2022-02-18 08:59:24,569 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: Get Image Completed
+2022-02-18 08:59:24,569 [DoImageLoopNew] DEBUG - GDET: debug_review.dat save
+2022-02-18 08:59:24,569 [DoImageLoopNew] DEBUG - GDET: Now usr index 0
+2022-02-18 08:59:24,569 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: exit, image_loop_end = False.
+2022-02-18 08:59:24,616 [18] DEBUG - GDET: subdet_pci::gdet::WaitImageCaptured get block 0.
+2022-02-18 08:59:24,616 [18] INFO  - Scn::ScanCapThread, Gdet::WaitImageCaptured return, *blk=0
+2022-02-18 08:59:24,616 [18] INFO  - Lodas::Scn::ScanCapThread: Quit, cap_force_stop = False, *blk = 0
+2022-02-18 08:59:29,069 [10] ERROR - Lodas::Scn::ScanImgThread: Stage is not stop, pos x1=233819, x2=166777
+2022-02-18 08:59:29,084 [21] INFO  - Lodas::Stg::GoAbsLoopX: Request force quit
+2022-02-18 08:59:29,084 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:29,084 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 08:59:29,084 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:29,084 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:29,084 [21] DEBUG - MoveStop addr = 3072.
+2022-02-18 08:59:29,116 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:29,116 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:29,116 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:29,116 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:29,116 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current pos = 233819
+2022-02-18 08:59:29,116 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current pos = 166777
+2022-02-18 08:59:29,116 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: Current prcp5 = 205442
+2022-02-18 08:59:29,116 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current RPRMD = 41
+2022-02-18 08:59:29,116 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current RPRMD = 80041
+2022-02-18 08:59:29,116 [21] DEBUG - Lodas::Stg::GoAbsLoopX: Quit, status: NormalEnd
+2022-02-18 08:59:29,116 [21] DEBUG - Lodas::Stg::ScanXYCallback: in, e->CallerFunc = 0.
+2022-02-18 08:59:29,116 [10] DEBUG - Lodas::Scn::ScanImgThread: Stage current pos x1=233819, x2=166777
+2022-02-18 08:59:29,116 [10] INFO  - GDET: Call CancelGetUserInterrupt.
+2022-02-18 08:59:29,116 [10] INFO  - GDET: Destroy Image thread Success.
+2022-02-18 08:59:29,116 [10] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 08:59:29,116 [10] DEBUG - Lodas::Scn::ScanImgThread: Get block = 0.
+2022-02-18 08:59:29,116 [10] DEBUG - Lodas::Scn::ScanImgThread: Get image success.
+2022-02-18 08:59:29,116 [10] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:59:29,116 [10] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:59:29,116 [10] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:59:29,116 [10] DEBUG - StgSetDest index = 0, addr = 200298, cur pos = 233819, mov = -33521.
+2022-02-18 08:59:29,116 [10] DEBUG - StgSetDest index = 1, addr = 200298, cur pos = 166777, mov = 33521.
+2022-02-18 08:59:29,116 [10] DEBUG - StgSetDest index = 2, addr = 346910, cur pos = 346910, mov = 0.
+2022-02-18 08:59:29,116 [10] DEBUG - MoveStart addr = E00.
+2022-02-18 08:59:29,116 [ 8] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:59:29,116 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:59:29,116 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 08:59:29,116 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:29,116 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:29,162 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:59:30,178 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:30,178 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:30,178 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:30,178 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:30,178 [ 8] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:59:30,178 [ 8] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 08:59:30,178 [10] INFO  - Scn::ScanImgThread,finally
+2022-02-18 08:59:30,178 [10] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 08:59:30,178 [10] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 08:59:30,178 [ 1] DEBUG - Lodas::ReviewForm::ScanImageEnd: In, e->Result : NormalEnd
+2022-02-18 08:59:30,178 [ 1] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=True, old Mode=False, old Face=None
+2022-02-18 08:59:30,178 [10] DEBUG - End Image scan. ret = NormalEnd
+2022-02-18 08:59:30,178 [ 8] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 08:59:30,178 [10] ERROR - Lodas::AutoReview::SaveImage imgList and imgFileList is nullptr.
+2022-02-18 08:59:32,866 [ 1] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:59:32,866 [ 1] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:59:32,866 [ 1] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:59:32,866 [ 1] DEBUG - StgSetDest index = 0, addr = 246863, cur pos = 200298, mov = 46565.
+2022-02-18 08:59:32,866 [ 1] DEBUG - StgSetDest index = 1, addr = 246863, cur pos = 200298, mov = 46565.
+2022-02-18 08:59:32,866 [ 1] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 346910, mov = 431.
+2022-02-18 08:59:32,866 [ 1] DEBUG - MoveStart addr = E00.
+2022-02-18 08:59:32,866 [19] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=1
+2022-02-18 08:59:32,866 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:59:32,866 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 81.
+2022-02-18 08:59:32,866 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 08:59:32,866 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 23, Sub = 1.
+2022-02-18 08:59:32,866 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:34,179 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:34,179 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:34,179 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:34,179 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:34,179 [19] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:59:34,179 [19] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=1
+2022-02-18 08:59:36,491 [ 1] INFO  - ReviewForm::btnLaserReview_Click in
+2022-02-18 08:59:36,491 [ 1] INFO  - Lodas::MainForm::ReviewFormGetDefectImageRequired,before ScnImgMain,xPos=246863,yPos=347341
+2022-02-18 08:59:36,491 [ 1] DEBUG - Scn::ScnImgMain,scn_px=246863,scn_py=347341,scanKind=0
+2022-02-18 08:59:36,491 [ 1] DEBUG - Scn::ScnImgMain,before Stg::SetScanSpeed,take_back=30000,scan_speed=110000
+2022-02-18 08:59:36,491 [ 1] DEBUG - Start Image scan.
+2022-02-18 08:59:36,506 [ 5] DEBUG - Lodas::Scn::ScanImgThread: Stg::AdjustCCDCamera,lastCCDCameraMode=False,scn_img_line=256
+2022-02-18 08:59:36,506 [ 5] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=False, old Mode=False, old Face=None
+2022-02-18 08:59:36,506 [ 5] DEBUG - Lodas::Scn::ScanImgThread: take back = 30000, scan length = 3521, start pos = 213342, end pos = 280384
+2022-02-18 08:59:36,506 [ 5] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:59:36,506 [ 5] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:59:36,506 [ 5] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:59:36,506 [ 5] DEBUG - StgSetDest index = 0, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 08:59:36,506 [ 5] DEBUG - StgSetDest index = 1, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 08:59:36,506 [ 5] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 08:59:36,506 [ 5] DEBUG - MoveStart addr = E00.
+2022-02-18 08:59:36,506 [ 8] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:59:36,506 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 81.
+2022-02-18 08:59:36,506 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 1.
+2022-02-18 08:59:36,506 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:36,506 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:36,506 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:59:37,584 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:37,584 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:37,584 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:37,584 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:37,584 [ 8] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:59:37,584 [ 8] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 08:59:37,584 [ 8] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 08:59:37,897 [ 5] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 08:59:37,897 [ 5] DEBUG - GDET: SetCaptureMode ch:0, src 1, continuous False kind 0
+2022-02-18 08:59:37,897 [ 5] INFO  - GDET: Create Image thread.
+2022-02-18 08:59:37,897 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: enter
+2022-02-18 08:59:37,897 [ 5] DEBUG - Lodas::Stg::GoScanX in
+2022-02-18 08:59:37,897 [ 5] DEBUG - Set index = 0, Speed = 110000, Mode = 1.
+2022-02-18 08:59:37,897 [ 5] DEBUG - Set index = 1, Speed = 110000, Mode = 1.
+2022-02-18 08:59:37,897 [ 5] DEBUG - StgSetDest index = 0, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 08:59:37,897 [ 5] DEBUG - StgSetDest index = 1, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 08:59:37,897 [ 5] DEBUG - MoveStart addr = C00.
+2022-02-18 08:59:37,897 [ 5] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current pos = 213342
+2022-02-18 08:59:37,897 [ 5] DEBUG - Lodas::StgCpdHandler::XSyncConfig: sync dist=45 start+.
+2022-02-18 08:59:37,897 [ 5] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current prcp5 = 205442
+2022-02-18 08:59:37,897 [ 5] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Set X1 PCL6123_WRENV5 = 50028
+2022-02-18 08:59:37,897 [ 5] DEBUG - Lodas::StgCpdHandler::XSyncConfig: end.
+2022-02-18 08:59:37,897 [19] DEBUG - Lodas::Stg::GoAbsLoopX in
+2022-02-18 08:59:37,897 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:59:37,897 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 08:59:37,897 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:37,897 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:37,897 [DoImageLoopNew] INFO  - GDET: Clear image buffer ch : 0 success
+2022-02-18 08:59:38,382 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x10, ch:0.
+2022-02-18 08:59:38,382 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x4000000, size:0x40.
+2022-02-18 08:59:38,382 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:38,382 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x0, trans size:0x10.
+2022-02-18 08:59:38,382 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x10.
+2022-02-18 08:59:38,382 [DoImageLoopNew] DEBUG - GDET: Get Image Head Success.
+2022-02-18 08:59:38,397 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x97000, ch:0.
+2022-02-18 08:59:38,397 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x79A4000, size:0x25C000.
+2022-02-18 08:59:38,397 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:38,397 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x10, trans size:0x97000.
+2022-02-18 08:59:38,397 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x97010.
+2022-02-18 08:59:38,428 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x69000, ch:0.
+2022-02-18 08:59:38,428 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7800000, size:0x1A4000.
+2022-02-18 08:59:38,428 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:38,428 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x97010, trans size:0x69000.
+2022-02-18 08:59:38,428 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x100010.
+2022-02-18 08:59:38,428 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: Get Image Completed
+2022-02-18 08:59:38,428 [DoImageLoopNew] DEBUG - GDET: debug_review.dat save
+2022-02-18 08:59:38,428 [DoImageLoopNew] DEBUG - GDET: Now usr index 0
+2022-02-18 08:59:38,428 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: exit, image_loop_end = False.
+2022-02-18 08:59:38,459 [ 7] DEBUG - GDET: subdet_pci::gdet::WaitImageCaptured get block 0.
+2022-02-18 08:59:38,459 [ 7] INFO  - Scn::ScanCapThread, Gdet::WaitImageCaptured return, *blk=0
+2022-02-18 08:59:38,459 [ 7] INFO  - Lodas::Scn::ScanCapThread: Quit, cap_force_stop = False, *blk = 0
+2022-02-18 08:59:42,912 [ 5] ERROR - Lodas::Scn::ScanImgThread: Stage is not stop, pos x1=280384, x2=213342
+2022-02-18 08:59:42,928 [19] INFO  - Lodas::Stg::GoAbsLoopX: Request force quit
+2022-02-18 08:59:42,928 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:42,928 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 08:59:42,928 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:42,928 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:42,928 [19] DEBUG - MoveStop addr = 3072.
+2022-02-18 08:59:42,959 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:42,959 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:42,959 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:42,959 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:42,959 [19] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current pos = 280384
+2022-02-18 08:59:42,959 [19] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current pos = 213342
+2022-02-18 08:59:42,959 [19] DEBUG - Lodas::StgCpdHandler::MoveEnded: Current prcp5 = 205442
+2022-02-18 08:59:42,959 [19] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current RPRMD = 41
+2022-02-18 08:59:42,959 [19] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current RPRMD = 80041
+2022-02-18 08:59:42,959 [19] DEBUG - Lodas::Stg::GoAbsLoopX: Quit, status: NormalEnd
+2022-02-18 08:59:42,959 [19] DEBUG - Lodas::Stg::ScanXYCallback: in, e->CallerFunc = 0.
+2022-02-18 08:59:42,959 [ 5] DEBUG - Lodas::Scn::ScanImgThread: Stage current pos x1=280384, x2=213342
+2022-02-18 08:59:42,959 [ 5] INFO  - GDET: Call CancelGetUserInterrupt.
+2022-02-18 08:59:42,959 [ 5] INFO  - GDET: Destroy Image thread Success.
+2022-02-18 08:59:42,959 [ 5] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 08:59:42,959 [ 5] DEBUG - Lodas::Scn::ScanImgThread: Get block = 0.
+2022-02-18 08:59:42,959 [ 5] DEBUG - Lodas::Scn::ScanImgThread: Get image success.
+2022-02-18 08:59:42,959 [ 5] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:59:42,959 [ 5] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:59:42,959 [ 5] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:59:42,959 [ 5] DEBUG - StgSetDest index = 0, addr = 246863, cur pos = 280384, mov = -33521.
+2022-02-18 08:59:42,959 [ 5] DEBUG - StgSetDest index = 1, addr = 246863, cur pos = 213342, mov = 33521.
+2022-02-18 08:59:42,959 [ 5] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 08:59:42,959 [ 5] DEBUG - MoveStart addr = E00.
+2022-02-18 08:59:42,959 [ 8] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:59:42,959 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:59:42,959 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:59:42,959 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 08:59:42,959 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:42,959 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:44,022 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:44,022 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:44,022 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:44,022 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:44,022 [ 8] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:59:44,022 [ 8] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 08:59:44,022 [ 5] INFO  - Scn::ScanImgThread,finally
+2022-02-18 08:59:44,022 [ 5] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 08:59:44,022 [ 5] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 08:59:44,022 [ 1] DEBUG - Lodas::ReviewForm::ScanImageEnd: In, e->Result : NormalEnd
+2022-02-18 08:59:44,038 [ 1] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=True, old Mode=False, old Face=None
+2022-02-18 08:59:44,053 [ 5] DEBUG - End Image scan. ret = NormalEnd
+2022-02-18 08:59:44,053 [ 5] ERROR - Lodas::AutoReview::SaveImage imgList and imgFileList is nullptr.
+2022-02-18 08:59:44,053 [ 8] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 08:59:45,663 [ 1] INFO  - ReviewForm::btnLaserReview_Click in
+2022-02-18 08:59:45,663 [ 1] INFO  - Lodas::MainForm::ReviewFormGetDefectImageRequired,before ScnImgMain,xPos=246863,yPos=347341
+2022-02-18 08:59:45,663 [ 1] DEBUG - Scn::ScnImgMain,scn_px=246863,scn_py=347341,scanKind=0
+2022-02-18 08:59:45,663 [ 1] DEBUG - Scn::ScnImgMain,before Stg::SetScanSpeed,take_back=30000,scan_speed=110000
+2022-02-18 08:59:45,663 [ 1] DEBUG - Start Image scan.
+2022-02-18 08:59:45,678 [17] DEBUG - Lodas::Scn::ScanImgThread: Stg::AdjustCCDCamera,lastCCDCameraMode=False,scn_img_line=256
+2022-02-18 08:59:45,678 [17] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=False, old Mode=False, old Face=None
+2022-02-18 08:59:45,678 [17] DEBUG - Lodas::Scn::ScanImgThread: take back = 30000, scan length = 3521, start pos = 213342, end pos = 280384
+2022-02-18 08:59:45,678 [17] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:59:45,678 [17] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:59:45,678 [17] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:59:45,678 [17] DEBUG - StgSetDest index = 0, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 08:59:45,678 [17] DEBUG - StgSetDest index = 1, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 08:59:45,678 [17] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 08:59:45,678 [17] DEBUG - MoveStart addr = E00.
+2022-02-18 08:59:45,678 [21] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:59:45,678 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:59:45,678 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 1.
+2022-02-18 08:59:45,678 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:45,678 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:45,678 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:59:46,741 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:46,741 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:46,741 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:46,741 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:46,741 [21] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:59:46,741 [21] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 08:59:46,741 [21] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 08:59:47,054 [17] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 08:59:47,054 [17] DEBUG - GDET: SetCaptureMode ch:0, src 1, continuous False kind 0
+2022-02-18 08:59:47,054 [17] INFO  - GDET: Create Image thread.
+2022-02-18 08:59:47,054 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: enter
+2022-02-18 08:59:47,054 [17] DEBUG - Lodas::Stg::GoScanX in
+2022-02-18 08:59:47,054 [17] DEBUG - Set index = 0, Speed = 110000, Mode = 1.
+2022-02-18 08:59:47,054 [17] DEBUG - Set index = 1, Speed = 110000, Mode = 1.
+2022-02-18 08:59:47,054 [17] DEBUG - StgSetDest index = 0, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 08:59:47,054 [17] DEBUG - StgSetDest index = 1, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 08:59:47,054 [17] DEBUG - MoveStart addr = C00.
+2022-02-18 08:59:47,054 [17] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current pos = 213342
+2022-02-18 08:59:47,054 [17] DEBUG - Lodas::StgCpdHandler::XSyncConfig: sync dist=45 start+.
+2022-02-18 08:59:47,054 [17] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current prcp5 = 205442
+2022-02-18 08:59:47,054 [17] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Set X1 PCL6123_WRENV5 = 50028
+2022-02-18 08:59:47,054 [17] DEBUG - Lodas::StgCpdHandler::XSyncConfig: end.
+2022-02-18 08:59:47,054 [ 8] DEBUG - Lodas::Stg::GoAbsLoopX in
+2022-02-18 08:59:47,054 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:59:47,054 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 08:59:47,054 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:47,054 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:47,054 [DoImageLoopNew] INFO  - GDET: Clear image buffer ch : 0 success
+2022-02-18 08:59:47,538 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x10, ch:0.
+2022-02-18 08:59:47,538 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x4000000, size:0x40.
+2022-02-18 08:59:47,538 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:47,538 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x0, trans size:0x10.
+2022-02-18 08:59:47,538 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x10.
+2022-02-18 08:59:47,538 [DoImageLoopNew] DEBUG - GDET: Get Image Head Success.
+2022-02-18 08:59:47,554 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x95000, ch:0.
+2022-02-18 08:59:47,554 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7DAC000, size:0x254000.
+2022-02-18 08:59:47,554 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:47,554 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x10, trans size:0x95000.
+2022-02-18 08:59:47,554 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x95010.
+2022-02-18 08:59:47,569 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x6B000, ch:0.
+2022-02-18 08:59:47,569 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7C00000, size:0x1AC000.
+2022-02-18 08:59:47,569 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 08:59:47,569 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x95010, trans size:0x6B000.
+2022-02-18 08:59:47,569 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x100010.
+2022-02-18 08:59:47,569 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: Get Image Completed
+2022-02-18 08:59:47,569 [DoImageLoopNew] DEBUG - GDET: debug_review.dat save
+2022-02-18 08:59:47,569 [DoImageLoopNew] DEBUG - GDET: Now usr index 0
+2022-02-18 08:59:47,569 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: exit, image_loop_end = False.
+2022-02-18 08:59:47,616 [14] DEBUG - GDET: subdet_pci::gdet::WaitImageCaptured get block 0.
+2022-02-18 08:59:47,616 [14] INFO  - Scn::ScanCapThread, Gdet::WaitImageCaptured return, *blk=0
+2022-02-18 08:59:47,616 [14] INFO  - Lodas::Scn::ScanCapThread: Quit, cap_force_stop = False, *blk = 0
+2022-02-18 08:59:52,069 [17] ERROR - Lodas::Scn::ScanImgThread: Stage is not stop, pos x1=280384, x2=213342
+2022-02-18 08:59:52,084 [ 8] INFO  - Lodas::Stg::GoAbsLoopX: Request force quit
+2022-02-18 08:59:52,084 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:52,084 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 08:59:52,084 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:52,084 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:52,084 [ 8] DEBUG - MoveStop addr = 3072.
+2022-02-18 08:59:52,116 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:52,116 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:52,116 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:52,116 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:52,116 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current pos = 280384
+2022-02-18 08:59:52,116 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current pos = 213342
+2022-02-18 08:59:52,116 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: Current prcp5 = 205442
+2022-02-18 08:59:52,116 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current RPRMD = 41
+2022-02-18 08:59:52,116 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current RPRMD = 80041
+2022-02-18 08:59:52,116 [ 8] DEBUG - Lodas::Stg::GoAbsLoopX: Quit, status: NormalEnd
+2022-02-18 08:59:52,116 [ 8] DEBUG - Lodas::Stg::ScanXYCallback: in, e->CallerFunc = 0.
+2022-02-18 08:59:52,116 [17] DEBUG - Lodas::Scn::ScanImgThread: Stage current pos x1=280384, x2=213342
+2022-02-18 08:59:52,116 [17] INFO  - GDET: Call CancelGetUserInterrupt.
+2022-02-18 08:59:52,116 [17] INFO  - GDET: Destroy Image thread Success.
+2022-02-18 08:59:52,116 [17] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 08:59:52,116 [17] DEBUG - Lodas::Scn::ScanImgThread: Get block = 0.
+2022-02-18 08:59:52,116 [17] DEBUG - Lodas::Scn::ScanImgThread: Get image success.
+2022-02-18 08:59:52,116 [17] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:59:52,116 [17] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:59:52,116 [17] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:59:52,116 [17] DEBUG - StgSetDest index = 0, addr = 246863, cur pos = 280384, mov = -33521.
+2022-02-18 08:59:52,116 [17] DEBUG - StgSetDest index = 1, addr = 246863, cur pos = 213342, mov = 33521.
+2022-02-18 08:59:52,116 [17] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 08:59:52,116 [17] DEBUG - MoveStart addr = E00.
+2022-02-18 08:59:52,116 [21] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:59:52,116 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:59:52,116 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 08:59:52,116 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:52,116 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:52,116 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 08:59:53,178 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 08:59:53,178 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 08:59:53,178 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:53,178 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:53,178 [21] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 08:59:53,178 [21] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 08:59:53,178 [17] INFO  - Scn::ScanImgThread,finally
+2022-02-18 08:59:53,178 [17] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 08:59:53,178 [17] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 08:59:53,178 [ 1] DEBUG - Lodas::ReviewForm::ScanImageEnd: In, e->Result : NormalEnd
+2022-02-18 08:59:53,178 [ 1] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=True, old Mode=False, old Face=None
+2022-02-18 08:59:53,178 [17] DEBUG - End Image scan. ret = NormalEnd
+2022-02-18 08:59:53,178 [17] ERROR - Lodas::AutoReview::SaveImage imgList and imgFileList is nullptr.
+2022-02-18 08:59:53,178 [21] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 08:59:59,210 [ 1] INFO  - ReviewForm::btnLaserReview_Click in
+2022-02-18 08:59:59,210 [ 1] INFO  - Lodas::MainForm::ReviewFormGetDefectImageRequired,before ScnImgMain,xPos=246863,yPos=347341
+2022-02-18 08:59:59,210 [ 1] DEBUG - Scn::ScnImgMain,scn_px=246863,scn_py=347341,scanKind=0
+2022-02-18 08:59:59,210 [ 1] DEBUG - Scn::ScnImgMain,before Stg::SetScanSpeed,take_back=30000,scan_speed=110000
+2022-02-18 08:59:59,210 [ 1] DEBUG - Start Image scan.
+2022-02-18 08:59:59,225 [20] DEBUG - Lodas::Scn::ScanImgThread: Stg::AdjustCCDCamera,lastCCDCameraMode=False,scn_img_line=256
+2022-02-18 08:59:59,225 [20] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=False, old Mode=False, old Face=None
+2022-02-18 08:59:59,225 [20] DEBUG - Lodas::Scn::ScanImgThread: take back = 30000, scan length = 3521, start pos = 213342, end pos = 280384
+2022-02-18 08:59:59,225 [20] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 08:59:59,225 [20] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 08:59:59,225 [20] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 08:59:59,225 [20] DEBUG - StgSetDest index = 0, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 08:59:59,225 [20] DEBUG - StgSetDest index = 1, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 08:59:59,225 [20] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 08:59:59,225 [20] DEBUG - MoveStart addr = E00.
+2022-02-18 08:59:59,225 [19] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 08:59:59,225 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 08:59:59,225 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 1.
+2022-02-18 08:59:59,225 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 08:59:59,225 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 08:59:59,225 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 09:00:00,303 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 09:00:00,303 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 09:00:00,303 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 09:00:00,303 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 09:00:00,303 [19] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 09:00:00,303 [19] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 09:00:00,303 [19] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 09:00:00,616 [20] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 09:00:00,616 [20] DEBUG - GDET: SetCaptureMode ch:0, src 1, continuous False kind 0
+2022-02-18 09:00:00,616 [20] INFO  - GDET: Create Image thread.
+2022-02-18 09:00:00,616 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: enter
+2022-02-18 09:00:00,616 [20] DEBUG - Lodas::Stg::GoScanX in
+2022-02-18 09:00:00,616 [20] DEBUG - Set index = 0, Speed = 110000, Mode = 1.
+2022-02-18 09:00:00,616 [20] DEBUG - Set index = 1, Speed = 110000, Mode = 1.
+2022-02-18 09:00:00,616 [20] DEBUG - StgSetDest index = 0, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 09:00:00,616 [20] DEBUG - StgSetDest index = 1, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 09:00:00,616 [20] DEBUG - MoveStart addr = C00.
+2022-02-18 09:00:00,616 [20] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current pos = 213342
+2022-02-18 09:00:00,616 [20] DEBUG - Lodas::StgCpdHandler::XSyncConfig: sync dist=45 start+.
+2022-02-18 09:00:00,616 [20] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current prcp5 = 205442
+2022-02-18 09:00:00,616 [20] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Set X1 PCL6123_WRENV5 = 50028
+2022-02-18 09:00:00,616 [20] DEBUG - Lodas::StgCpdHandler::XSyncConfig: end.
+2022-02-18 09:00:00,616 [21] DEBUG - Lodas::Stg::GoAbsLoopX in
+2022-02-18 09:00:00,616 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 09:00:00,616 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 09:00:00,616 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 09:00:00,616 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 09:00:00,616 [DoImageLoopNew] INFO  - GDET: Clear image buffer ch : 0 success
+2022-02-18 09:00:01,100 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x10, ch:0.
+2022-02-18 09:00:01,100 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x4000000, size:0x40.
+2022-02-18 09:00:01,100 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 09:00:01,100 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x0, trans size:0x10.
+2022-02-18 09:00:01,100 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x10.
+2022-02-18 09:00:01,100 [DoImageLoopNew] DEBUG - GDET: Get Image Head Success.
+2022-02-18 09:00:01,116 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x95000, ch:0.
+2022-02-18 09:00:01,116 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x79AC000, size:0x254000.
+2022-02-18 09:00:01,116 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 09:00:01,116 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x10, trans size:0x95000.
+2022-02-18 09:00:01,116 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x95010.
+2022-02-18 09:00:01,131 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x6B000, ch:0.
+2022-02-18 09:00:01,131 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7800000, size:0x1AC000.
+2022-02-18 09:00:01,131 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 09:00:01,131 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x95010, trans size:0x6B000.
+2022-02-18 09:00:01,131 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x100010.
+2022-02-18 09:00:01,131 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: Get Image Completed
+2022-02-18 09:00:01,131 [DoImageLoopNew] DEBUG - GDET: debug_review.dat save
+2022-02-18 09:00:01,131 [DoImageLoopNew] DEBUG - GDET: Now usr index 0
+2022-02-18 09:00:01,131 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: exit, image_loop_end = False.
+2022-02-18 09:00:01,179 [16] DEBUG - GDET: subdet_pci::gdet::WaitImageCaptured get block 0.
+2022-02-18 09:00:01,179 [16] INFO  - Scn::ScanCapThread, Gdet::WaitImageCaptured return, *blk=0
+2022-02-18 09:00:01,179 [16] INFO  - Lodas::Scn::ScanCapThread: Quit, cap_force_stop = False, *blk = 0
+2022-02-18 09:00:05,631 [20] ERROR - Lodas::Scn::ScanImgThread: Stage is not stop, pos x1=280384, x2=213342
+2022-02-18 09:00:05,647 [21] INFO  - Lodas::Stg::GoAbsLoopX: Request force quit
+2022-02-18 09:00:05,647 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 09:00:05,647 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 09:00:05,647 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 09:00:05,647 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 09:00:05,647 [21] DEBUG - MoveStop addr = 3072.
+2022-02-18 09:00:05,678 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 09:00:05,678 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 09:00:05,678 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 09:00:05,678 [21] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 09:00:05,678 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current pos = 280384
+2022-02-18 09:00:05,678 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current pos = 213342
+2022-02-18 09:00:05,678 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: Current prcp5 = 205442
+2022-02-18 09:00:05,678 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current RPRMD = 41
+2022-02-18 09:00:05,678 [21] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current RPRMD = 80041
+2022-02-18 09:00:05,678 [21] DEBUG - Lodas::Stg::GoAbsLoopX: Quit, status: NormalEnd
+2022-02-18 09:00:05,678 [21] DEBUG - Lodas::Stg::ScanXYCallback: in, e->CallerFunc = 0.
+2022-02-18 09:00:05,678 [20] DEBUG - Lodas::Scn::ScanImgThread: Stage current pos x1=280384, x2=213342
+2022-02-18 09:00:05,678 [20] INFO  - GDET: Call CancelGetUserInterrupt.
+2022-02-18 09:00:05,678 [20] INFO  - GDET: Destroy Image thread Success.
+2022-02-18 09:00:05,678 [20] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 09:00:05,678 [20] DEBUG - Lodas::Scn::ScanImgThread: Get block = 0.
+2022-02-18 09:00:05,678 [20] DEBUG - Lodas::Scn::ScanImgThread: Get image success.
+2022-02-18 09:00:05,678 [20] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 09:00:05,678 [20] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 09:00:05,678 [20] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 09:00:05,678 [20] DEBUG - StgSetDest index = 0, addr = 246863, cur pos = 280384, mov = -33521.
+2022-02-18 09:00:05,678 [20] DEBUG - StgSetDest index = 1, addr = 246863, cur pos = 213342, mov = 33521.
+2022-02-18 09:00:05,678 [20] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 09:00:05,678 [20] DEBUG - MoveStart addr = E00.
+2022-02-18 09:00:05,678 [19] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 09:00:05,678 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 09:00:05,678 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 09:00:05,678 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 09:00:05,678 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 09:00:05,678 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 09:00:06,741 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 09:00:06,741 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 09:00:06,741 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 09:00:06,741 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 09:00:06,741 [19] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 09:00:06,741 [19] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 09:00:06,741 [20] INFO  - Scn::ScanImgThread,finally
+2022-02-18 09:00:06,741 [20] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 09:00:06,741 [20] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 09:00:06,741 [ 1] DEBUG - Lodas::ReviewForm::ScanImageEnd: In, e->Result : NormalEnd
+2022-02-18 09:00:06,741 [ 1] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=True, old Mode=False, old Face=None
+2022-02-18 09:00:06,741 [19] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 09:00:06,741 [20] DEBUG - End Image scan. ret = NormalEnd
+2022-02-18 09:00:06,741 [20] ERROR - Lodas::AutoReview::SaveImage imgList and imgFileList is nullptr.
+2022-02-18 09:31:59,350 [ 1] INFO  - ReviewForm::btnLaserReview_Click in
+2022-02-18 09:31:59,350 [ 1] INFO  - Lodas::MainForm::ReviewFormGetDefectImageRequired,before ScnImgMain,xPos=246863,yPos=347341
+2022-02-18 09:31:59,350 [ 1] DEBUG - Scn::ScnImgMain,scn_px=246863,scn_py=347341,scanKind=0
+2022-02-18 09:31:59,350 [ 1] DEBUG - Scn::ScnImgMain,before Stg::SetScanSpeed,take_back=30000,scan_speed=110000
+2022-02-18 09:31:59,350 [ 1] DEBUG - Start Image scan.
+2022-02-18 09:31:59,366 [ 7] DEBUG - Lodas::Scn::ScanImgThread: Stg::AdjustCCDCamera,lastCCDCameraMode=False,scn_img_line=256
+2022-02-18 09:31:59,366 [ 7] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=False, old Mode=False, old Face=None
+2022-02-18 09:31:59,366 [ 7] DEBUG - Lodas::Scn::ScanImgThread: take back = 30000, scan length = 3521, start pos = 213342, end pos = 280384
+2022-02-18 09:31:59,366 [ 7] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 09:31:59,366 [ 7] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 09:31:59,366 [ 7] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 09:31:59,366 [ 7] DEBUG - StgSetDest index = 0, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 09:31:59,366 [ 7] DEBUG - StgSetDest index = 1, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 09:31:59,366 [ 7] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 09:31:59,366 [ 7] DEBUG - MoveStart addr = E00.
+2022-02-18 09:31:59,366 [ 6] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 09:31:59,366 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 09:31:59,366 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 09:31:59,366 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 09:31:59,366 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 09:31:59,366 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 09:32:00,428 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 09:32:00,428 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 09:32:00,428 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 09:32:00,428 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 09:32:00,428 [ 6] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 09:32:00,428 [ 6] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 09:32:00,428 [ 6] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 09:32:00,741 [ 7] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 09:32:00,741 [ 7] DEBUG - GDET: SetCaptureMode ch:0, src 1, continuous False kind 0
+2022-02-18 09:32:00,741 [ 7] INFO  - GDET: Create Image thread.
+2022-02-18 09:32:00,741 [ 7] DEBUG - Lodas::Stg::GoScanX in
+2022-02-18 09:32:00,741 [ 7] DEBUG - Set index = 0, Speed = 110000, Mode = 1.
+2022-02-18 09:32:00,741 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: enter
+2022-02-18 09:32:00,741 [ 7] DEBUG - Set index = 1, Speed = 110000, Mode = 1.
+2022-02-18 09:32:00,741 [ 7] DEBUG - StgSetDest index = 0, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 09:32:00,741 [ 7] DEBUG - StgSetDest index = 1, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 09:32:00,741 [ 7] DEBUG - MoveStart addr = C00.
+2022-02-18 09:32:00,741 [ 7] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current pos = 213342
+2022-02-18 09:32:00,741 [ 7] DEBUG - Lodas::StgCpdHandler::XSyncConfig: sync dist=45 start+.
+2022-02-18 09:32:00,741 [ 7] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current prcp5 = 205442
+2022-02-18 09:32:00,741 [ 7] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Set X1 PCL6123_WRENV5 = 50028
+2022-02-18 09:32:00,741 [ 7] DEBUG - Lodas::StgCpdHandler::XSyncConfig: end.
+2022-02-18 09:32:00,741 [ 6] DEBUG - Lodas::Stg::GoAbsLoopX in
+2022-02-18 09:32:00,741 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 09:32:00,741 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 09:32:00,741 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 09:32:00,741 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 09:32:00,741 [DoImageLoopNew] INFO  - GDET: Clear image buffer ch : 0 success
+2022-02-18 09:32:01,225 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x10, ch:0.
+2022-02-18 09:32:01,225 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x4000000, size:0x40.
+2022-02-18 09:32:01,225 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 09:32:01,225 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x0, trans size:0x10.
+2022-02-18 09:32:01,225 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x10.
+2022-02-18 09:32:01,225 [DoImageLoopNew] DEBUG - GDET: Get Image Head Success.
+2022-02-18 09:32:01,241 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x97000, ch:0.
+2022-02-18 09:32:01,241 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7DA4000, size:0x25C000.
+2022-02-18 09:32:01,241 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 09:32:01,241 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x10, trans size:0x97000.
+2022-02-18 09:32:01,241 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x97010.
+2022-02-18 09:32:01,256 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x69000, ch:0.
+2022-02-18 09:32:01,256 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7C00000, size:0x1A4000.
+2022-02-18 09:32:01,256 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 09:32:01,256 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x97010, trans size:0x69000.
+2022-02-18 09:32:01,256 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x100010.
+2022-02-18 09:32:01,256 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: Get Image Completed
+2022-02-18 09:32:01,256 [DoImageLoopNew] DEBUG - GDET: debug_review.dat save
+2022-02-18 09:32:01,256 [DoImageLoopNew] DEBUG - GDET: Now usr index 0
+2022-02-18 09:32:01,256 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: exit, image_loop_end = False.
+2022-02-18 09:32:01,303 [14] DEBUG - GDET: subdet_pci::gdet::WaitImageCaptured get block 0.
+2022-02-18 09:32:01,303 [14] INFO  - Scn::ScanCapThread, Gdet::WaitImageCaptured return, *blk=0
+2022-02-18 09:32:01,303 [14] INFO  - Lodas::Scn::ScanCapThread: Quit, cap_force_stop = False, *blk = 0
+2022-02-18 09:32:05,741 [ 7] ERROR - Lodas::Scn::ScanImgThread: Stage is not stop, pos x1=280384, x2=213342
+2022-02-18 09:32:05,756 [ 6] INFO  - Lodas::Stg::GoAbsLoopX: Request force quit
+2022-02-18 09:32:05,756 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 09:32:05,756 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 09:32:05,756 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 09:32:05,756 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 09:32:05,756 [ 6] DEBUG - MoveStop addr = 3072.
+2022-02-18 09:32:05,803 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 09:32:05,803 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 09:32:05,803 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 09:32:05,803 [ 6] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 09:32:05,803 [ 6] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current pos = 280384
+2022-02-18 09:32:05,803 [ 6] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current pos = 213342
+2022-02-18 09:32:05,803 [ 6] DEBUG - Lodas::StgCpdHandler::MoveEnded: Current prcp5 = 205442
+2022-02-18 09:32:05,803 [ 6] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current RPRMD = 41
+2022-02-18 09:32:05,803 [ 6] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current RPRMD = 80041
+2022-02-18 09:32:05,803 [ 6] DEBUG - Lodas::Stg::GoAbsLoopX: Quit, status: NormalEnd
+2022-02-18 09:32:05,803 [ 6] DEBUG - Lodas::Stg::ScanXYCallback: in, e->CallerFunc = 0.
+2022-02-18 09:32:05,803 [ 7] DEBUG - Lodas::Scn::ScanImgThread: Stage current pos x1=280384, x2=213342
+2022-02-18 09:32:05,803 [ 7] INFO  - GDET: Call CancelGetUserInterrupt.
+2022-02-18 09:32:05,803 [ 7] INFO  - GDET: Destroy Image thread Success.
+2022-02-18 09:32:05,803 [ 7] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 09:32:05,803 [ 7] DEBUG - Lodas::Scn::ScanImgThread: Get block = 0.
+2022-02-18 09:32:05,803 [ 7] DEBUG - Lodas::Scn::ScanImgThread: Get image success.
+2022-02-18 09:32:05,803 [ 7] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 09:32:05,803 [ 7] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 09:32:05,803 [ 7] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 09:32:05,803 [ 7] DEBUG - StgSetDest index = 0, addr = 246863, cur pos = 280384, mov = -33521.
+2022-02-18 09:32:05,803 [ 7] DEBUG - StgSetDest index = 1, addr = 246863, cur pos = 213342, mov = 33521.
+2022-02-18 09:32:05,803 [ 7] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 09:32:05,803 [ 7] DEBUG - MoveStart addr = E00.
+2022-02-18 09:32:05,803 [19] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 09:32:05,803 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 09:32:05,803 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 09:32:05,803 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 09:32:05,803 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 09:32:05,803 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 09:32:06,866 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 09:32:06,866 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 09:32:06,866 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 09:32:06,866 [19] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 09:32:06,866 [19] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 09:32:06,866 [19] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 09:32:06,866 [ 7] INFO  - Scn::ScanImgThread,finally
+2022-02-18 09:32:06,866 [ 7] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 09:32:06,866 [ 7] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 09:32:06,866 [ 1] DEBUG - Lodas::ReviewForm::ScanImageEnd: In, e->Result : NormalEnd
+2022-02-18 09:32:06,866 [ 1] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=True, old Mode=False, old Face=None
+2022-02-18 09:32:06,866 [19] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 09:32:06,866 [ 7] DEBUG - End Image scan. ret = NormalEnd
+2022-02-18 09:32:06,866 [ 7] ERROR - Lodas::AutoReview::SaveImage imgList and imgFileList is nullptr.
+2022-02-18 13:08:23,631 [ 1] INFO  - ReviewForm::btnLaserReview_Click in
+2022-02-18 13:08:23,631 [ 1] INFO  - Lodas::MainForm::ReviewFormGetDefectImageRequired,before ScnImgMain,xPos=246863,yPos=347341
+2022-02-18 13:08:23,631 [ 1] DEBUG - Scn::ScnImgMain,scn_px=246863,scn_py=347341,scanKind=0
+2022-02-18 13:08:23,631 [ 1] DEBUG - Scn::ScnImgMain,before Stg::SetScanSpeed,take_back=30000,scan_speed=110000
+2022-02-18 13:08:23,631 [ 1] DEBUG - Start Image scan.
+2022-02-18 13:08:23,647 [ 6] DEBUG - Lodas::Scn::ScanImgThread: Stg::AdjustCCDCamera,lastCCDCameraMode=False,scn_img_line=256
+2022-02-18 13:08:23,647 [ 6] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=False, old Mode=False, old Face=None
+2022-02-18 13:08:23,647 [ 6] DEBUG - Lodas::Scn::ScanImgThread: take back = 30000, scan length = 3521, start pos = 213342, end pos = 280384
+2022-02-18 13:08:23,647 [ 6] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 13:08:23,647 [ 6] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 13:08:23,647 [ 6] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 13:08:23,647 [ 6] DEBUG - StgSetDest index = 0, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 13:08:23,647 [ 6] DEBUG - StgSetDest index = 1, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 13:08:23,647 [ 6] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 13:08:23,647 [ 6] DEBUG - MoveStart addr = E00.
+2022-02-18 13:08:23,647 [ 8] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 13:08:23,647 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 13:08:23,647 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 13:08:23,647 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:08:23,647 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 13:08:23,647 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:08:24,709 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 13:08:24,709 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 13:08:24,709 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:08:24,709 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:08:24,709 [ 8] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 13:08:24,709 [ 8] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 13:08:24,709 [ 8] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 13:08:25,022 [ 6] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 13:08:25,022 [ 6] DEBUG - GDET: SetCaptureMode ch:0, src 1, continuous False kind 0
+2022-02-18 13:08:25,022 [ 6] INFO  - GDET: Create Image thread.
+2022-02-18 13:08:25,022 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: enter
+2022-02-18 13:08:25,022 [ 6] DEBUG - Lodas::Stg::GoScanX in
+2022-02-18 13:08:25,022 [ 6] DEBUG - Set index = 0, Speed = 110000, Mode = 1.
+2022-02-18 13:08:25,022 [ 6] DEBUG - Set index = 1, Speed = 110000, Mode = 1.
+2022-02-18 13:08:25,022 [ 6] DEBUG - StgSetDest index = 0, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 13:08:25,022 [ 6] DEBUG - StgSetDest index = 1, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 13:08:25,022 [ 6] DEBUG - MoveStart addr = C00.
+2022-02-18 13:08:25,022 [ 6] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current pos = 213342
+2022-02-18 13:08:25,022 [ 6] DEBUG - Lodas::StgCpdHandler::XSyncConfig: sync dist=45 start+.
+2022-02-18 13:08:25,022 [ 6] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current prcp5 = 205442
+2022-02-18 13:08:25,022 [ 6] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Set X1 PCL6123_WRENV5 = 50028
+2022-02-18 13:08:25,022 [ 6] DEBUG - Lodas::StgCpdHandler::XSyncConfig: end.
+2022-02-18 13:08:25,022 [ 8] DEBUG - Lodas::Stg::GoAbsLoopX in
+2022-02-18 13:08:25,022 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 13:08:25,022 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 13:08:25,022 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:08:25,022 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:08:25,022 [DoImageLoopNew] INFO  - GDET: Clear image buffer ch : 0 success
+2022-02-18 13:08:25,506 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x10, ch:0.
+2022-02-18 13:08:25,506 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x4000000, size:0x40.
+2022-02-18 13:08:25,506 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 13:08:25,506 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x0, trans size:0x10.
+2022-02-18 13:08:25,506 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x10.
+2022-02-18 13:08:25,506 [DoImageLoopNew] DEBUG - GDET: Get Image Head Success.
+2022-02-18 13:08:25,522 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x97000, ch:0.
+2022-02-18 13:08:25,522 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x79A4000, size:0x25C000.
+2022-02-18 13:08:25,522 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 13:08:25,522 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x10, trans size:0x97000.
+2022-02-18 13:08:25,522 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x97010.
+2022-02-18 13:08:25,538 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x69000, ch:0.
+2022-02-18 13:08:25,538 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7800000, size:0x1A4000.
+2022-02-18 13:08:25,538 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 13:08:25,538 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x97010, trans size:0x69000.
+2022-02-18 13:08:25,538 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x100010.
+2022-02-18 13:08:25,538 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: Get Image Completed
+2022-02-18 13:08:25,538 [DoImageLoopNew] DEBUG - GDET: debug_review.dat save
+2022-02-18 13:08:25,538 [DoImageLoopNew] DEBUG - GDET: Now usr index 0
+2022-02-18 13:08:25,538 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: exit, image_loop_end = False.
+2022-02-18 13:08:25,585 [ 5] DEBUG - GDET: subdet_pci::gdet::WaitImageCaptured get block 0.
+2022-02-18 13:08:25,585 [ 5] INFO  - Scn::ScanCapThread, Gdet::WaitImageCaptured return, *blk=0
+2022-02-18 13:08:25,585 [ 5] INFO  - Lodas::Scn::ScanCapThread: Quit, cap_force_stop = False, *blk = 0
+2022-02-18 13:08:30,022 [ 6] ERROR - Lodas::Scn::ScanImgThread: Stage is not stop, pos x1=280384, x2=213342
+2022-02-18 13:08:30,038 [ 8] INFO  - Lodas::Stg::GoAbsLoopX: Request force quit
+2022-02-18 13:08:30,038 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 13:08:30,038 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 13:08:30,038 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:08:30,038 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:08:30,038 [ 8] DEBUG - MoveStop addr = 3072.
+2022-02-18 13:08:30,085 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 13:08:30,085 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 13:08:30,085 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:08:30,085 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:08:30,085 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current pos = 280384
+2022-02-18 13:08:30,085 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current pos = 213342
+2022-02-18 13:08:30,085 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: Current prcp5 = 205442
+2022-02-18 13:08:30,085 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current RPRMD = 41
+2022-02-18 13:08:30,085 [ 8] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current RPRMD = 80041
+2022-02-18 13:08:30,085 [ 8] DEBUG - Lodas::Stg::GoAbsLoopX: Quit, status: NormalEnd
+2022-02-18 13:08:30,085 [ 8] DEBUG - Lodas::Stg::ScanXYCallback: in, e->CallerFunc = 0.
+2022-02-18 13:08:30,085 [ 6] DEBUG - Lodas::Scn::ScanImgThread: Stage current pos x1=280384, x2=213342
+2022-02-18 13:08:30,085 [ 6] INFO  - GDET: Call CancelGetUserInterrupt.
+2022-02-18 13:08:30,085 [ 6] INFO  - GDET: Destroy Image thread Success.
+2022-02-18 13:08:30,085 [ 6] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 13:08:30,085 [ 6] DEBUG - Lodas::Scn::ScanImgThread: Get block = 0.
+2022-02-18 13:08:30,085 [ 6] DEBUG - Lodas::Scn::ScanImgThread: Get image success.
+2022-02-18 13:08:30,085 [ 6] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 13:08:30,085 [ 6] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 13:08:30,085 [ 6] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 13:08:30,085 [ 6] DEBUG - StgSetDest index = 0, addr = 246863, cur pos = 280384, mov = -33521.
+2022-02-18 13:08:30,085 [ 6] DEBUG - StgSetDest index = 1, addr = 246863, cur pos = 213342, mov = 33521.
+2022-02-18 13:08:30,085 [ 6] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 13:08:30,085 [ 6] DEBUG - MoveStart addr = E00.
+2022-02-18 13:08:30,085 [16] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 13:08:30,085 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 13:08:30,085 [16] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 13:08:30,085 [16] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 13:08:30,085 [16] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:08:30,085 [16] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:08:31,147 [16] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 13:08:31,147 [16] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 13:08:31,147 [16] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:08:31,147 [16] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:08:31,147 [16] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 13:08:31,147 [16] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 13:08:31,147 [ 6] INFO  - Scn::ScanImgThread,finally
+2022-02-18 13:08:31,147 [ 6] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 13:08:31,147 [ 6] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 13:08:31,147 [ 1] DEBUG - Lodas::ReviewForm::ScanImageEnd: In, e->Result : NormalEnd
+2022-02-18 13:08:31,147 [ 1] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=True, old Mode=False, old Face=None
+2022-02-18 13:08:31,147 [16] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 13:08:31,147 [ 6] DEBUG - End Image scan. ret = NormalEnd
+2022-02-18 13:08:31,147 [ 6] ERROR - Lodas::AutoReview::SaveImage imgList and imgFileList is nullptr.
+2022-02-18 13:09:23,553 [ 1] INFO  - ReviewForm::btnLaserReview_Click in
+2022-02-18 13:09:23,553 [ 1] INFO  - Lodas::MainForm::ReviewFormGetDefectImageRequired,before ScnImgMain,xPos=246863,yPos=347341
+2022-02-18 13:09:23,553 [ 1] DEBUG - Scn::ScnImgMain,scn_px=246863,scn_py=347341,scanKind=0
+2022-02-18 13:09:23,553 [ 1] DEBUG - Scn::ScnImgMain,before Stg::SetScanSpeed,take_back=30000,scan_speed=110000
+2022-02-18 13:09:23,553 [ 1] DEBUG - Start Image scan.
+2022-02-18 13:09:23,553 [17] DEBUG - Lodas::Scn::ScanImgThread: Stg::AdjustCCDCamera,lastCCDCameraMode=False,scn_img_line=256
+2022-02-18 13:09:23,553 [17] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=False, old Mode=False, old Face=None
+2022-02-18 13:09:23,553 [17] DEBUG - Lodas::Scn::ScanImgThread: take back = 30000, scan length = 3521, start pos = 213342, end pos = 280384
+2022-02-18 13:09:23,553 [17] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 13:09:23,553 [17] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 13:09:23,553 [17] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 13:09:23,553 [17] DEBUG - StgSetDest index = 0, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 13:09:23,553 [17] DEBUG - StgSetDest index = 1, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 13:09:23,553 [17] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 13:09:23,553 [17] DEBUG - MoveStart addr = E00.
+2022-02-18 13:09:23,553 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 13:09:23,553 [14] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 13:09:23,553 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 13:09:23,553 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 13:09:23,553 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:09:23,553 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:09:24,616 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 13:09:24,616 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 13:09:24,616 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:09:24,616 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:09:24,616 [14] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 13:09:24,616 [14] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 13:09:24,616 [14] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 13:09:24,928 [17] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 13:09:24,928 [17] DEBUG - GDET: SetCaptureMode ch:0, src 1, continuous False kind 0
+2022-02-18 13:09:24,928 [17] INFO  - GDET: Create Image thread.
+2022-02-18 13:09:24,928 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: enter
+2022-02-18 13:09:24,928 [17] DEBUG - Lodas::Stg::GoScanX in
+2022-02-18 13:09:24,928 [17] DEBUG - Set index = 0, Speed = 110000, Mode = 1.
+2022-02-18 13:09:24,928 [17] DEBUG - Set index = 1, Speed = 110000, Mode = 1.
+2022-02-18 13:09:24,928 [17] DEBUG - StgSetDest index = 0, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 13:09:24,928 [17] DEBUG - StgSetDest index = 1, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 13:09:24,928 [17] DEBUG - MoveStart addr = C00.
+2022-02-18 13:09:24,928 [17] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current pos = 213342
+2022-02-18 13:09:24,928 [17] DEBUG - Lodas::StgCpdHandler::XSyncConfig: sync dist=45 start+.
+2022-02-18 13:09:24,928 [17] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current prcp5 = 205442
+2022-02-18 13:09:24,928 [17] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Set X1 PCL6123_WRENV5 = 50028
+2022-02-18 13:09:24,928 [17] DEBUG - Lodas::StgCpdHandler::XSyncConfig: end.
+2022-02-18 13:09:24,928 [14] DEBUG - Lodas::Stg::GoAbsLoopX in
+2022-02-18 13:09:24,928 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 13:09:24,928 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 13:09:24,928 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:09:24,928 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:09:24,928 [DoImageLoopNew] INFO  - GDET: Clear image buffer ch : 0 success
+2022-02-18 13:09:25,413 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x10, ch:0.
+2022-02-18 13:09:25,413 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x4000000, size:0x40.
+2022-02-18 13:09:25,413 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 13:09:25,413 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x0, trans size:0x10.
+2022-02-18 13:09:25,413 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x10.
+2022-02-18 13:09:25,413 [DoImageLoopNew] DEBUG - GDET: Get Image Head Success.
+2022-02-18 13:09:25,428 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x99000, ch:0.
+2022-02-18 13:09:25,428 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7D9C000, size:0x264000.
+2022-02-18 13:09:25,428 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 13:09:25,428 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x10, trans size:0x99000.
+2022-02-18 13:09:25,428 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x99010.
+2022-02-18 13:09:25,444 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x67000, ch:0.
+2022-02-18 13:09:25,444 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7C00000, size:0x19C000.
+2022-02-18 13:09:25,444 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 13:09:25,444 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x99010, trans size:0x67000.
+2022-02-18 13:09:25,444 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x100010.
+2022-02-18 13:09:25,444 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: Get Image Completed
+2022-02-18 13:09:25,444 [DoImageLoopNew] DEBUG - GDET: debug_review.dat save
+2022-02-18 13:09:25,444 [DoImageLoopNew] DEBUG - GDET: Now usr index 0
+2022-02-18 13:09:25,444 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: exit, image_loop_end = False.
+2022-02-18 13:09:25,491 [10] DEBUG - GDET: subdet_pci::gdet::WaitImageCaptured get block 0.
+2022-02-18 13:09:25,491 [10] INFO  - Scn::ScanCapThread, Gdet::WaitImageCaptured return, *blk=0
+2022-02-18 13:09:25,491 [10] INFO  - Lodas::Scn::ScanCapThread: Quit, cap_force_stop = False, *blk = 0
+2022-02-18 13:09:29,944 [17] ERROR - Lodas::Scn::ScanImgThread: Stage is not stop, pos x1=280384, x2=213342
+2022-02-18 13:09:29,959 [14] INFO  - Lodas::Stg::GoAbsLoopX: Request force quit
+2022-02-18 13:09:29,959 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 13:09:29,959 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 13:09:29,959 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:09:29,959 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:09:29,959 [14] DEBUG - MoveStop addr = 3072.
+2022-02-18 13:09:29,990 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 13:09:29,990 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 13:09:29,990 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:09:29,990 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:09:29,990 [14] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current pos = 280384
+2022-02-18 13:09:29,990 [14] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current pos = 213342
+2022-02-18 13:09:29,990 [14] DEBUG - Lodas::StgCpdHandler::MoveEnded: Current prcp5 = 205442
+2022-02-18 13:09:29,990 [14] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current RPRMD = 41
+2022-02-18 13:09:29,990 [14] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current RPRMD = 80041
+2022-02-18 13:09:29,990 [14] DEBUG - Lodas::Stg::GoAbsLoopX: Quit, status: NormalEnd
+2022-02-18 13:09:29,990 [14] DEBUG - Lodas::Stg::ScanXYCallback: in, e->CallerFunc = 0.
+2022-02-18 13:09:29,990 [17] DEBUG - Lodas::Scn::ScanImgThread: Stage current pos x1=280384, x2=213342
+2022-02-18 13:09:29,990 [17] INFO  - GDET: Call CancelGetUserInterrupt.
+2022-02-18 13:09:29,990 [17] INFO  - GDET: Destroy Image thread Success.
+2022-02-18 13:09:29,990 [17] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 13:09:29,990 [17] DEBUG - Lodas::Scn::ScanImgThread: Get block = 0.
+2022-02-18 13:09:29,990 [17] DEBUG - Lodas::Scn::ScanImgThread: Get image success.
+2022-02-18 13:09:29,990 [17] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 13:09:29,990 [17] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 13:09:29,990 [17] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 13:09:29,990 [17] DEBUG - StgSetDest index = 0, addr = 246863, cur pos = 280384, mov = -33521.
+2022-02-18 13:09:29,990 [17] DEBUG - StgSetDest index = 1, addr = 246863, cur pos = 213342, mov = 33521.
+2022-02-18 13:09:29,990 [17] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 13:09:29,990 [17] DEBUG - MoveStart addr = E00.
+2022-02-18 13:09:29,990 [ 7] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 13:09:29,990 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 13:09:29,990 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 13:09:29,990 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 13:09:29,990 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:09:29,990 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:09:31,053 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 13:09:31,053 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 13:09:31,053 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:09:31,053 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:09:31,053 [ 7] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 13:09:31,053 [ 7] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 13:09:31,053 [17] INFO  - Scn::ScanImgThread,finally
+2022-02-18 13:09:31,053 [17] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 13:09:31,053 [17] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 13:09:31,053 [ 1] DEBUG - Lodas::ReviewForm::ScanImageEnd: In, e->Result : NormalEnd
+2022-02-18 13:09:31,053 [ 1] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=True, old Mode=False, old Face=None
+2022-02-18 13:09:31,053 [ 7] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 13:09:31,053 [17] DEBUG - End Image scan. ret = NormalEnd
+2022-02-18 13:09:31,053 [17] ERROR - Lodas::AutoReview::SaveImage imgList and imgFileList is nullptr.
+2022-02-18 13:26:08,647 [ 1] INFO  - FootOff User Cancel [False]
+2022-02-18 13:26:08,647 [14] INFO  - StartFootOff in,maskThick=0
+2022-02-18 13:26:08,647 [14] INFO  - StartFootOff.ch=0,maskThick=0
+2022-02-18 13:26:08,647 [14] INFO  - StartFootOn.ch=0
+2022-02-18 13:26:11,696 [ 7] INFO  - FootOn sensor  success
+2022-02-18 13:26:11,696 [ 7] INFO  - Lodas::Dpaf::FootOnWorker: for home, pos = 31000, Origin = 31000, Mask Thick / 2 = 0, Err Dist = 0
+2022-02-18 13:26:12,065 [14] INFO  - Success FootOn
+2022-02-18 13:26:12,066 [ 5] INFO  - FootOffWorker Start
+2022-02-18 13:26:15,006 [ 5] INFO  - FootOff step 1 Success 
+2022-02-18 13:26:17,663 [ 5] INFO  - FootOff step 2 Success 
+2022-02-18 13:26:17,678 [14] INFO  - StartFootOff Result=True,ch=0
+2022-02-18 13:26:17,678 [14] INFO  - Success AF
+2022-02-18 13:26:21,850 [ 5] INFO  - StartFootOn.ch=0
+2022-02-18 13:26:24,929 [ 7] INFO  - FootOn sensor  success
+2022-02-18 13:26:24,929 [ 7] INFO  - Lodas::Dpaf::FootOnWorker: for home, pos = 31000, Origin = 31000, Mask Thick / 2 = 0, Err Dist = 0
+2022-02-18 13:26:25,303 [ 5] INFO  - Success FootOn
+2022-02-18 13:27:19,225 [ 1] DEBUG - Modbus Ip : 169.254.0.1
+2022-02-18 13:27:19,225 [ 1] DEBUG - Lodas::IniForm::Read_Data_Config: SSR 0.
+2022-02-18 13:27:19,225 [ 1] DEBUG - Lodas::IniForm::Read_DLL_Config: DLL Hook 1.
+2022-02-18 13:27:26,241 [ 1] DEBUG - Lodas::IniForm::Save_Data_Config: SSR 0.
+2022-02-18 13:27:26,241 [ 1] DEBUG - Lodas::IniForm::Save_DLL_Config: DllHook 1.
+2022-02-18 13:27:26,241 [ 1] INFO  - GDET: Hook switch : True.
+2022-02-18 13:27:26,756 [ 1] DEBUG - Modbus Ip : 169.254.0.1
+2022-02-18 13:27:26,772 [ 1] DEBUG - Modbus Ip : 169.254.0.1
+2022-02-18 13:27:26,772 [ 1] DEBUG - Lodas::IniForm::Read_Data_Config: SSR 0.
+2022-02-18 13:27:26,772 [ 1] DEBUG - Lodas::IniForm::Read_DLL_Config: DLL Hook 1.
+2022-02-18 13:27:26,772 [ 1] DEBUG - Modbus Ip : 169.254.0.1
+2022-02-18 13:27:26,787 [ 1] DEBUG - Lodas::IniForm::Read_Data_Config: SSR 0.
+2022-02-18 13:27:26,787 [ 1] DEBUG - Lodas::IniForm::Read_DLL_Config: DLL Hook 1.
+2022-02-18 13:27:28,569 [ 1] DEBUG - Open ManualMergeForm.
+2022-02-18 13:27:33,116 [ 1] INFO  - ReviewForm::btnLaserReview_Click in
+2022-02-18 13:27:33,116 [ 1] INFO  - Lodas::MainForm::ReviewFormGetDefectImageRequired,before ScnImgMain,xPos=246863,yPos=347341
+2022-02-18 13:27:33,116 [ 1] DEBUG - Scn::ScnImgMain,scn_px=246863,scn_py=347341,scanKind=0
+2022-02-18 13:27:33,116 [ 1] DEBUG - Scn::ScnImgMain,before Stg::SetScanSpeed,take_back=30000,scan_speed=110000
+2022-02-18 13:27:33,116 [ 1] DEBUG - Start Image scan.
+2022-02-18 13:27:33,116 [ 5] DEBUG - Lodas::Scn::ScanImgThread: Stg::AdjustCCDCamera,lastCCDCameraMode=False,scn_img_line=256
+2022-02-18 13:27:33,116 [ 5] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=False, old Mode=False, old Face=None
+2022-02-18 13:27:33,116 [ 5] DEBUG - Lodas::Scn::ScanImgThread: take back = 30000, scan length = 3521, start pos = 213342, end pos = 280384
+2022-02-18 13:27:33,116 [ 5] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 13:27:33,116 [ 5] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 13:27:33,116 [ 5] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 13:27:33,116 [ 5] DEBUG - StgSetDest index = 0, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 13:27:33,116 [ 5] DEBUG - StgSetDest index = 1, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 13:27:33,116 [ 5] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 13:27:33,116 [ 5] DEBUG - MoveStart addr = E00.
+2022-02-18 13:27:33,116 [ 7] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 13:27:33,116 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 13:27:33,116 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9023, Sub = 181.
+2022-02-18 13:27:33,116 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 13:27:33,116 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:27:33,116 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:27:34,178 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 9028, Sub = 81.
+2022-02-18 13:27:34,178 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 13:27:34,178 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:27:34,178 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:27:34,178 [ 7] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 13:27:34,178 [ 7] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 13:27:34,178 [ 7] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 13:27:34,491 [ 5] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 13:27:34,491 [ 5] DEBUG - GDET: SetCaptureMode ch:0, src 1, continuous False kind 0
+2022-02-18 13:27:34,491 [ 5] INFO  - GDET: Create Image thread.
+2022-02-18 13:27:34,491 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: enter
+2022-02-18 13:27:34,491 [ 5] DEBUG - Lodas::Stg::GoScanX in
+2022-02-18 13:27:34,491 [ 5] DEBUG - Set index = 0, Speed = 110000, Mode = 1.
+2022-02-18 13:27:34,491 [ 5] DEBUG - Set index = 1, Speed = 110000, Mode = 1.
+2022-02-18 13:27:34,491 [ 5] DEBUG - StgSetDest index = 0, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 13:27:34,491 [ 5] DEBUG - StgSetDest index = 1, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 13:27:34,491 [ 5] DEBUG - MoveStart addr = C00.
+2022-02-18 13:27:34,491 [ 5] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current pos = 213342
+2022-02-18 13:27:34,491 [ 5] DEBUG - Lodas::StgCpdHandler::XSyncConfig: sync dist=45 start+.
+2022-02-18 13:27:34,491 [ 5] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current prcp5 = 205442
+2022-02-18 13:27:34,491 [ 5] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Set X1 PCL6123_WRENV5 = 50008
+2022-02-18 13:27:34,491 [ 5] DEBUG - Lodas::StgCpdHandler::XSyncConfig: end.
+2022-02-18 13:27:34,491 [ 7] DEBUG - Lodas::Stg::GoAbsLoopX in
+2022-02-18 13:27:34,491 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 23, Sub = 101.
+2022-02-18 13:27:34,491 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 13:27:34,491 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:27:34,491 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:27:34,491 [DoImageLoopNew] INFO  - GDET: Clear image buffer ch : 0 success
+2022-02-18 13:27:34,975 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x10, ch:0.
+2022-02-18 13:27:34,975 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x4000000, size:0x40.
+2022-02-18 13:27:34,975 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 13:27:34,975 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x0, trans size:0x10.
+2022-02-18 13:27:34,975 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x10.
+2022-02-18 13:27:34,975 [DoImageLoopNew] DEBUG - GDET: Get Image Head Success.
+2022-02-18 13:27:34,991 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x96000, ch:0.
+2022-02-18 13:27:34,991 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x79A8000, size:0x258000.
+2022-02-18 13:27:34,991 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 13:27:34,991 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x10, trans size:0x96000.
+2022-02-18 13:27:34,991 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x96010.
+2022-02-18 13:27:35,007 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x6A000, ch:0.
+2022-02-18 13:27:35,007 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7800000, size:0x1A8000.
+2022-02-18 13:27:35,007 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 13:27:35,007 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x96010, trans size:0x6A000.
+2022-02-18 13:27:35,007 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x100010.
+2022-02-18 13:27:35,007 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: Get Image Completed
+2022-02-18 13:27:35,007 [DoImageLoopNew] DEBUG - GDET: debug_review.dat save
+2022-02-18 13:27:35,007 [DoImageLoopNew] DEBUG - GDET: Now usr index 0
+2022-02-18 13:27:35,007 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: exit, image_loop_end = False.
+2022-02-18 13:27:35,054 [ 6] DEBUG - GDET: subdet_pci::gdet::WaitImageCaptured get block 0.
+2022-02-18 13:27:35,054 [ 6] INFO  - Scn::ScanCapThread, Gdet::WaitImageCaptured return, *blk=0
+2022-02-18 13:27:35,054 [ 6] INFO  - Lodas::Scn::ScanCapThread: Quit, cap_force_stop = False, *blk = 0
+2022-02-18 13:27:39,491 [ 5] ERROR - Lodas::Scn::ScanImgThread: Stage is not stop, pos x1=280384, x2=213342
+2022-02-18 13:27:39,506 [ 7] INFO  - Lodas::Stg::GoAbsLoopX: Request force quit
+2022-02-18 13:27:39,506 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 28, Sub = 1.
+2022-02-18 13:27:39,506 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 13:27:39,506 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:27:39,506 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:27:39,506 [ 7] DEBUG - MoveStop addr = 3072.
+2022-02-18 13:27:39,553 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 28, Sub = 1.
+2022-02-18 13:27:39,553 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 13:27:39,553 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:27:39,553 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:27:39,553 [ 7] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current pos = 280384
+2022-02-18 13:27:39,553 [ 7] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current pos = 213342
+2022-02-18 13:27:39,553 [ 7] DEBUG - Lodas::StgCpdHandler::MoveEnded: Current prcp5 = 205442
+2022-02-18 13:27:39,553 [ 7] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current RPRMD = 41
+2022-02-18 13:27:39,553 [ 7] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current RPRMD = 80041
+2022-02-18 13:27:39,553 [ 7] DEBUG - Lodas::Stg::GoAbsLoopX: Quit, status: NormalEnd
+2022-02-18 13:27:39,553 [ 7] DEBUG - Lodas::Stg::ScanXYCallback: in, e->CallerFunc = 0.
+2022-02-18 13:27:39,553 [ 5] DEBUG - Lodas::Scn::ScanImgThread: Stage current pos x1=280384, x2=213342
+2022-02-18 13:27:39,553 [ 5] INFO  - GDET: Call CancelGetUserInterrupt.
+2022-02-18 13:27:39,553 [ 5] INFO  - GDET: Destroy Image thread Success.
+2022-02-18 13:27:39,553 [ 5] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 13:27:39,553 [ 5] DEBUG - Lodas::Scn::ScanImgThread: Get block = 0.
+2022-02-18 13:27:39,553 [ 5] DEBUG - Lodas::Scn::ScanImgThread: Get image success.
+2022-02-18 13:27:39,553 [ 5] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 13:27:39,553 [ 5] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 13:27:39,553 [ 5] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 13:27:39,553 [ 5] DEBUG - StgSetDest index = 0, addr = 246863, cur pos = 280384, mov = -33521.
+2022-02-18 13:27:39,553 [ 5] DEBUG - StgSetDest index = 1, addr = 246863, cur pos = 213342, mov = 33521.
+2022-02-18 13:27:39,553 [ 5] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 13:27:39,553 [ 5] DEBUG - MoveStart addr = E00.
+2022-02-18 13:27:39,553 [14] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 13:27:39,553 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 13:27:39,553 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 23, Sub = 101.
+2022-02-18 13:27:39,553 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 13:27:39,553 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:27:39,553 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:27:40,616 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 28, Sub = 1.
+2022-02-18 13:27:40,616 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 13:27:40,616 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:27:40,616 [14] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:27:40,616 [14] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 13:27:40,616 [14] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 13:27:40,616 [ 5] INFO  - Scn::ScanImgThread,finally
+2022-02-18 13:27:40,616 [ 5] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 13:27:40,616 [ 5] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 13:27:40,616 [ 1] DEBUG - Lodas::ReviewForm::ScanImageEnd: In, e->Result : NormalEnd
+2022-02-18 13:27:40,616 [ 1] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=True, old Mode=False, old Face=None
+2022-02-18 13:27:40,616 [14] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 13:27:40,616 [ 5] DEBUG - End Image scan. ret = NormalEnd
+2022-02-18 13:27:40,616 [ 5] ERROR - Lodas::AutoReview::SaveImage imgList and imgFileList is nullptr.
+2022-02-18 13:28:09,084 [ 1] INFO  - ReviewForm::btnLaserReview_Click in
+2022-02-18 13:28:09,084 [ 1] INFO  - Lodas::MainForm::ReviewFormGetDefectImageRequired,before ScnImgMain,xPos=246863,yPos=347341
+2022-02-18 13:28:09,084 [ 1] DEBUG - Scn::ScnImgMain,scn_px=246863,scn_py=347341,scanKind=0
+2022-02-18 13:28:09,084 [ 1] DEBUG - Scn::ScnImgMain,before Stg::SetScanSpeed,take_back=30000,scan_speed=110000
+2022-02-18 13:28:09,084 [ 1] DEBUG - Start Image scan.
+2022-02-18 13:28:09,100 [14] DEBUG - Lodas::Scn::ScanImgThread: Stg::AdjustCCDCamera,lastCCDCameraMode=False,scn_img_line=256
+2022-02-18 13:28:09,100 [14] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=False, old Mode=False, old Face=None
+2022-02-18 13:28:09,100 [14] DEBUG - Lodas::Scn::ScanImgThread: take back = 30000, scan length = 3521, start pos = 213342, end pos = 280384
+2022-02-18 13:28:09,100 [14] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 13:28:09,100 [14] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 13:28:09,100 [14] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 13:28:09,100 [14] DEBUG - StgSetDest index = 0, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 13:28:09,100 [14] DEBUG - StgSetDest index = 1, addr = 213342, cur pos = 246863, mov = -33521.
+2022-02-18 13:28:09,100 [14] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 13:28:09,100 [14] DEBUG - MoveStart addr = E00.
+2022-02-18 13:28:09,100 [ 7] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 13:28:09,100 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 23, Sub = 101.
+2022-02-18 13:28:09,100 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 13:28:09,100 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:28:09,100 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:28:09,100 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 13:28:10,163 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 28, Sub = 1.
+2022-02-18 13:28:10,163 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 13:28:10,163 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:28:10,163 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:28:10,163 [ 7] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 13:28:10,163 [ 7] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 13:28:10,163 [ 7] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 13:28:10,475 [14] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 13:28:10,475 [14] DEBUG - GDET: SetCaptureMode ch:0, src 1, continuous False kind 0
+2022-02-18 13:28:10,475 [14] INFO  - GDET: Create Image thread.
+2022-02-18 13:28:10,475 [14] DEBUG - Lodas::Stg::GoScanX in
+2022-02-18 13:28:10,475 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: enter
+2022-02-18 13:28:10,475 [14] DEBUG - Set index = 0, Speed = 110000, Mode = 1.
+2022-02-18 13:28:10,475 [14] DEBUG - Set index = 1, Speed = 110000, Mode = 1.
+2022-02-18 13:28:10,475 [14] DEBUG - StgSetDest index = 0, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 13:28:10,475 [14] DEBUG - StgSetDest index = 1, addr = 280384, cur pos = 213342, mov = 67042.
+2022-02-18 13:28:10,475 [14] DEBUG - MoveStart addr = C00.
+2022-02-18 13:28:10,475 [14] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current pos = 213342
+2022-02-18 13:28:10,475 [14] DEBUG - Lodas::StgCpdHandler::XSyncConfig: sync dist=45 start+.
+2022-02-18 13:28:10,475 [14] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Current prcp5 = 213387
+2022-02-18 13:28:10,475 [14] DEBUG - Lodas::StgCpdHandler::XSyncConfig: Set X1 PCL6123_WRENV5 = 50008
+2022-02-18 13:28:10,475 [14] DEBUG - Lodas::StgCpdHandler::XSyncConfig: end.
+2022-02-18 13:28:10,475 [ 7] DEBUG - Lodas::Stg::GoAbsLoopX in
+2022-02-18 13:28:10,475 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 8023, Sub = 101.
+2022-02-18 13:28:10,475 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 13:28:10,475 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:28:10,475 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:28:10,475 [DoImageLoopNew] INFO  - GDET: Clear image buffer ch : 0 success
+2022-02-18 13:28:10,959 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x10, ch:0.
+2022-02-18 13:28:10,959 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x4000000, size:0x40.
+2022-02-18 13:28:10,959 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 13:28:10,959 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x0, trans size:0x10.
+2022-02-18 13:28:10,959 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x10.
+2022-02-18 13:28:10,959 [DoImageLoopNew] DEBUG - GDET: Get Image Head Success.
+2022-02-18 13:28:10,975 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x96000, ch:0.
+2022-02-18 13:28:10,975 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7DA8000, size:0x258000.
+2022-02-18 13:28:10,975 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 13:28:10,975 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x10, trans size:0x96000.
+2022-02-18 13:28:10,975 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x96010.
+2022-02-18 13:28:10,991 [DoImageLoopNew] DEBUG - GDET: subdet_pci::gdet::HasImageData: HasImageData read_size:0x6A000, ch:0.
+2022-02-18 13:28:10,991 [DoImageLoopNew] DEBUG - GDET: Transfer Config: ulChannelIndex:0, ulDmaDir:1, ulTimeOut:50000, ulDevAddrOffset:0x7C00000, size:0x1A8000.
+2022-02-18 13:28:10,991 [DoImageLoopNew] DEBUG - GDET: TransferSGDMA success
+2022-02-18 13:28:10,991 [DoImageLoopNew] DEBUG - GDET: user data addr offset old:0x96010, trans size:0x6A000.
+2022-02-18 13:28:10,991 [DoImageLoopNew] DEBUG - GDET: user data addr offset new:0x100010.
+2022-02-18 13:28:10,991 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: Get Image Completed
+2022-02-18 13:28:10,991 [DoImageLoopNew] DEBUG - GDET: debug_review.dat save
+2022-02-18 13:28:10,991 [DoImageLoopNew] DEBUG - GDET: Now usr index 0
+2022-02-18 13:28:10,991 [DoImageLoopNew] INFO  - GDET: subdet_pci::gdet::DoImageLoopNew: exit, image_loop_end = False.
+2022-02-18 13:28:11,037 [13] DEBUG - GDET: subdet_pci::gdet::WaitImageCaptured get block 0.
+2022-02-18 13:28:11,037 [13] INFO  - Scn::ScanCapThread, Gdet::WaitImageCaptured return, *blk=0
+2022-02-18 13:28:11,037 [13] INFO  - Lodas::Scn::ScanCapThread: Quit, cap_force_stop = False, *blk = 0
+2022-02-18 13:28:15,491 [14] ERROR - Lodas::Scn::ScanImgThread: Stage is not stop, pos x1=280384, x2=213342
+2022-02-18 13:28:15,506 [ 7] INFO  - Lodas::Stg::GoAbsLoopX: Request force quit
+2022-02-18 13:28:15,506 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 8028, Sub = 1.
+2022-02-18 13:28:15,506 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 21, Sub = 1.
+2022-02-18 13:28:15,506 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:28:15,506 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:28:15,506 [ 7] DEBUG - MoveStop addr = 3072.
+2022-02-18 13:28:15,537 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 8028, Sub = 1.
+2022-02-18 13:28:15,537 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 13:28:15,537 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:28:15,537 [ 7] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:28:15,537 [ 7] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current pos = 280384
+2022-02-18 13:28:15,537 [ 7] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current pos = 213342
+2022-02-18 13:28:15,537 [ 7] DEBUG - Lodas::StgCpdHandler::MoveEnded: Current prcp5 = 213387
+2022-02-18 13:28:15,537 [ 7] DEBUG - Lodas::StgCpdHandler::MoveEnded: x1 Current RPRMD = 41
+2022-02-18 13:28:15,537 [ 7] DEBUG - Lodas::StgCpdHandler::MoveEnded: x2 Current RPRMD = 80041
+2022-02-18 13:28:15,537 [ 7] DEBUG - Lodas::Stg::GoAbsLoopX: Quit, status: NormalEnd
+2022-02-18 13:28:15,537 [ 7] DEBUG - Lodas::Stg::ScanXYCallback: in, e->CallerFunc = 0.
+2022-02-18 13:28:15,537 [14] DEBUG - Lodas::Scn::ScanImgThread: Stage current pos x1=280384, x2=213342
+2022-02-18 13:28:15,537 [14] INFO  - GDET: Call CancelGetUserInterrupt.
+2022-02-18 13:28:15,537 [14] INFO  - GDET: Destroy Image thread Success.
+2022-02-18 13:28:15,537 [14] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 13:28:15,537 [14] DEBUG - Lodas::Scn::ScanImgThread: Get block = 0.
+2022-02-18 13:28:15,537 [14] DEBUG - Lodas::Scn::ScanImgThread: Get image success.
+2022-02-18 13:28:15,537 [14] DEBUG - Set index = 0, Speed = 60000, Mode = 1.
+2022-02-18 13:28:15,537 [14] DEBUG - Set index = 1, Speed = 60000, Mode = 1.
+2022-02-18 13:28:15,537 [14] DEBUG - Set index = 2, Speed = 60000, Mode = 1.
+2022-02-18 13:28:15,537 [14] DEBUG - StgSetDest index = 0, addr = 246863, cur pos = 280384, mov = -33521.
+2022-02-18 13:28:15,537 [14] DEBUG - StgSetDest index = 1, addr = 246863, cur pos = 213342, mov = 33521.
+2022-02-18 13:28:15,537 [14] DEBUG - StgSetDest index = 2, addr = 347341, cur pos = 347341, mov = 0.
+2022-02-18 13:28:15,537 [14] DEBUG - MoveStart addr = E00.
+2022-02-18 13:28:15,537 [ 8] DEBUG - Stg::GoAbsLoop in,IsMoving=True,callerFunc=0
+2022-02-18 13:28:15,537 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 8023, Sub = 101.
+2022-02-18 13:28:15,537 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 23, Sub = 101.
+2022-02-18 13:28:15,537 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:28:15,537 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:28:15,537 [ 1] DEBUG - Lodas::MainForm::StageMovingStart in
+2022-02-18 13:28:16,600 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 0, Main = 8028, Sub = 1.
+2022-02-18 13:28:16,600 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 1, Main = 28, Sub = 1.
+2022-02-18 13:28:16,600 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 2, Main = 28, Sub = 1.
+2022-02-18 13:28:16,600 [ 8] DEBUG - Lodas::StgAdapter::PrintStatus: Axis = 3, Main = 8, Sub = 3000.
+2022-02-18 13:28:16,600 [ 8] DEBUG - Lodas::Stg::GoAbsLoop: Quit, status: NormalEnd
+2022-02-18 13:28:16,600 [ 8] DEBUG - Stg::GoAbsCallback in,e->CallerFunc=0
+2022-02-18 13:28:16,600 [14] INFO  - Scn::ScanImgThread,finally
+2022-02-18 13:28:16,600 [14] DEBUG - GDET: SetCaptureMode ch:0, src 0, continuous False kind 0
+2022-02-18 13:28:16,600 [14] INFO  - Lodas::Gdet::HazeScanSet: channel = Forward set haze False
+2022-02-18 13:28:16,600 [ 1] DEBUG - Lodas::ReviewForm::ScanImageEnd: In, e->Result : NormalEnd
+2022-02-18 13:28:16,600 [ 1] DEBUG - Stg::AdjustCCDCamera in,Stg::IsMoving=False, new mode=False,new face=Front,need move=True, old Mode=False, old Face=None
+2022-02-18 13:28:16,600 [14] DEBUG - End Image scan. ret = NormalEnd
+2022-02-18 13:28:16,600 [14] ERROR - Lodas::AutoReview::SaveImage imgList and imgFileList is nullptr.
+2022-02-18 13:28:16,600 [ 8] DEBUG - Lodas::Stg::GoAbsCallback: func = 0, do nothing
+2022-02-18 13:28:18,506 [ 1] DEBUG - Lodas::Stg::Stop in
+2022-02-18 13:28:19,647 [ 8] INFO  - StartFootOn.ch=0
+2022-02-18 13:28:19,647 [ 7] INFO  - FootOn sensor  success
+2022-02-18 13:28:19,647 [ 7] INFO  - Lodas::Dpaf::FootOnWorker: for home, pos = 31000, Origin = 31000, Mask Thick / 2 = 0, Err Dist = 0
+2022-02-18 13:28:20,022 [ 8] INFO  - Success FootOn
+2022-02-18 13:28:20,022 [ 1] INFO  - GDET: DeAllocDefectMemory index:0, success
+2022-02-18 13:28:20,022 [ 1] INFO  - GDET: DeAllocImageMemory index:0, success
+2022-02-18 13:28:20,022 [ 1] DEBUG - SvOff addr = 3584.
+2022-02-18 13:28:20,022 [ 1] INFO  - CloseDevice.
+2022-02-18 13:28:20,022 [ 1] INFO  - Dpaf Device Release Success 
+2022-02-18 13:28:20,647 [ 1] INFO  - Lodas::GdetRealHandler::~GdetRealHandler: delete realHandler
+2022-02-18 13:28:20,647 [ 1] INFO  - GDET: subdet_pci::gdet::GdetDisconnect: m_pcie = True
+2022-02-18 13:28:20,647 [ 1] INFO  - GDET: PCIE INTERFACE CLOSE
+2022-02-18 13:28:21,022 [ 1] INFO  - Destroy Light Twinkle thread.
+2022-02-18 13:28:21,038 [DoAlarmLoop] INFO  - Lodas::AlarmAdapter::DoAlarmLoop: Out.
+2022-02-18 13:28:21,038 [ 1] INFO  - Destroy Alarm Thread.
+2022-02-18 13:28:21,038 [ 1] INFO  - DeleteCCD success
+2022-02-18 13:28:21,069 [ 1] INFO  - Exit application.
